@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Prototipo educativo de tests tipo DGT; banco original, no examen oficial."""
 import json
+import hashlib
 import logging
 import os
 import random
@@ -16,6 +17,7 @@ from telegram.ext import Application, CallbackQueryHandler, CommandHandler, Cont
 TZ = ZoneInfo("Europe/Madrid")
 QUESTIONS = json.loads((Path(__file__).parent / "questions.json").read_text(encoding="utf-8"))
 BY_ID = {q["id"]: q for q in QUESTIONS}
+BANK_VERSION = hashlib.sha256(json.dumps(QUESTIONS, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
 DB_PATH = os.getenv("DB_PATH", str(Path(__file__).parent / "dgt_bot.sqlite3"))
 DAILY_COUNT = int(os.getenv("DAILY_COUNT", "3"))
 assert 3 <= DAILY_COUNT <= 5, "DAILY_COUNT debe estar entre 3 y 5"
@@ -33,6 +35,13 @@ def db():
       pos INTEGER NOT NULL, answers TEXT NOT NULL, status TEXT NOT NULL,
       deadline TEXT, remaining INTEGER, nonce INTEGER NOT NULL DEFAULT 0)""")
     con.execute("CREATE TABLE IF NOT EXISTS history (chat_id INTEGER, played_at TEXT, mode TEXT, question_id INTEGER, choice INTEGER, correct INTEGER, topic TEXT)")
+    con.execute("CREATE TABLE IF NOT EXISTS metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
+    version = con.execute("SELECT value FROM metadata WHERE key='bank_version'").fetchone()
+    if not version or version["value"] != BANK_VERSION:
+        # Existing sessions refer to old IDs. Never grade them using the replacement bank.
+        con.execute("DELETE FROM sessions")
+        con.execute("DELETE FROM history")
+        con.execute("INSERT OR REPLACE INTO metadata(key,value) VALUES('bank_version',?)", (BANK_VERSION,))
     con.commit()
     return con
 
@@ -75,12 +84,14 @@ async def show_question(bot, chat_id, s):
     if s["pos"] >= len(ids):
         return
     q = BY_ID[ids[s["pos"]]]
-    options = InlineKeyboardMarkup([[InlineKeyboardButton(f"{letter}) {text}", callback_data=f"a:{s['nonce']}:{q['id']}:{i}")]
-                                    for i, (letter, text) in enumerate(zip("ABC", q["opciones"]))])
+    # Telegram truncates long inline button labels. Put the complete answers in the
+    # message body; keep the keyboard labels to one letter each.
+    options = InlineKeyboardMarkup([[InlineKeyboardButton(letter, callback_data=f"a:{s['nonce']}:{q['id']}:{i}")
+                                     for i, letter in enumerate("ABC")]])
     heading = f"{'Examen' if s['mode']=='exam' else 'Práctica'} {s['pos']+1}/{len(ids)} · {q['tema']}"
     if s["mode"] == "exam":
         heading += f" · {max(0, (remaining_seconds(s)+59)//60)} min restantes"
-    # Fotos reales y señales se colocan en assets/ y se referencian por ruta en questions.json.
+    # No decorative images: only render an asset explicitly tied to this question.
     image = q.get("imagen")
     if image:
         path = Path(__file__).parent / "assets" / image
@@ -89,7 +100,8 @@ async def show_question(bot, chat_id, s):
                 await bot.send_photo(chat_id, photo=photo)
         else:
             log.warning("Imagen no encontrada para pregunta %s: %s", q["id"], image)
-    await bot.send_message(chat_id, f"{heading}\n\n{q['pregunta']}", reply_markup=options)
+    answers = "\n".join(f"{letter}) {text}" for letter, text in zip("ABC", q["opciones"]))
+    await bot.send_message(chat_id, f"{heading}\n\n{q['pregunta']}\n\n{answers}", reply_markup=options)
 
 
 async def finish(bot, con, chat_id, s, timed_out=False):

@@ -1,452 +1,482 @@
 [
   {
     "id": 1,
-    "tema": "Señales",
-    "pregunta": "Ante una señal de STOP, ¿qué debes hacer?",
+    "tema": "Adelantamiento",
+    "pregunta": "¿Puede adelantar en un túnel con un solo carril para cada sentido?",
     "opciones": [
-      "Reducir la velocidad sin detenerte si no viene nadie",
-      "Detenerte y ceder el paso",
-      "Tocar el claxon y continuar"
+      "No, ya que su sentido de la marcha sólo dispone de un carril.",
+      "Sí, si en sentido contrario no circula ningún vehículo.",
+      "No; en los túneles siempre está prohibido adelantar."
     ],
-    "correcta": 1,
-    "explicacion": "STOP exige detención y cesión del paso.",
-    "imagen": "stop.png",
-    "visual": "senal",
-    "fuente": "RGC art. 151"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 3 del test 278 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 3
   },
   {
     "id": 2,
-    "tema": "Señales",
-    "pregunta": "Una señal triangular con borde rojo advierte normalmente de...",
+    "tema": "Vehículo",
+    "pregunta": "Si se ve obligado a circular con una rueda de repuesto de uso temporal o de emergencia, ¿qué debe tener en cuenta?",
     "opciones": [
-      "Un peligro",
-      "Una obligación",
-      "El fin de una prohibición"
+      "Las indicaciones de los fabricantes de este tipo de repuestos.",
+      "Que si está homologada su duración es la misma que la de una rueda normal.",
+      "Que su presión debe ser superior a la de las otras tres ruedas."
     ],
     "correcta": 0,
-    "explicacion": "Las señales triangulares de borde rojo advierten de peligro.",
-    "imagen": "danger.png",
-    "visual": "senal",
-    "fuente": "RGC art. 149"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 4 del test 278 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 4
   },
   {
     "id": 3,
-    "tema": "Señales",
-    "pregunta": "Una señal circular azul con flecha blanca indica normalmente...",
+    "tema": "Circulación",
+    "pregunta": "En vía urbana, cuando utilice el carril que más convenga a su destino, ¿puede abandonar dicho carril?",
     "opciones": [
-      "Una recomendación sin obligación",
-      "Una obligación de dirección o sentido",
-      "Una prohibición de adelantar"
+      "Sí, para prepararse a cambiar de dirección, adelantar, parar o estacionar.",
+      "No, en ningún caso.",
+      "Sí, pero sólo para cambiar de dirección."
     ],
-    "correcta": 1,
-    "explicacion": "Las señales circulares azules con pictogramas blancos expresan obligación.",
-    "imagen": "mandatory.png",
-    "visual": "senal",
-    "fuente": "RGC art. 153"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 7 del test 278 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 7
   },
   {
     "id": 4,
-    "tema": "Señales",
-    "pregunta": "Ante la señal de ceda el paso, ¿qué debes hacer?",
+    "tema": "Alumbrado",
+    "pregunta": "Circula con la luz de largo alcance y se acerca a un vehículo que circula a menor velocidad en su mismo sentido de la marcha; ¿debe sustituir la luz de carretera por la de corto alcance?",
     "opciones": [
-      "Detenerte siempre durante 3 segundos",
-      "Ceder el paso, deteniéndote si hace falta",
-      "Pasar primero si circulas por la derecha"
+      "No, ya que no es necesario ni aconsejable.",
+      "Sí, para evitar la posibilidad de deslumbramiento a través del espejo retrovisor.",
+      "Solo si no tiene intención de adelantar."
     ],
     "correcta": 1,
-    "explicacion": "Se cede el paso y se detiene el vehículo si es necesario.",
-    "imagen": "yield.png",
-    "visual": "senal",
-    "fuente": "RGC art. 151"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 9 del test 278 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 9)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 9
   },
   {
     "id": 5,
-    "tema": "Señales",
-    "pregunta": "Un semáforo rojo fijo significa...",
+    "tema": "Adelantamiento",
+    "pregunta": "Si un conductor inicia un adelantamiento y se producen circunstancias que hacen difícil finalizar la maniobra...",
     "opciones": [
-      "Detenerse antes de entrar en la intersección",
-      "Pasar si no hay peatones",
-      "Reducir la velocidad"
+      "debe regresar a su carril y advertirlo a los que circulen por detrás.",
+      "el conductor del vehículo adelantado está obligado a apartarse al arcén.",
+      "debe acelerar y terminar la maniobra, aunque genere una situación de riesgo."
     ],
     "correcta": 0,
-    "explicacion": "La luz roja fija prohíbe rebasar el semáforo.",
-    "imagen": "redlight.jpg",
-    "visual": "senal",
-    "fuente": "RGC art. 146"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 10 del test 278 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 10
   },
   {
     "id": 6,
-    "tema": "Señales",
-    "pregunta": "Una luz amarilla fija del semáforo obliga a...",
+    "tema": "Agentes",
+    "pregunta": "Si un vehículo de la policía de tráfico se sitúa detrás de usted y enciende un dispositivo con una luz roja destelleante hacia delante, ¿qué debe hacer?",
     "opciones": [
-      "Acelerar para cruzar",
-      "Detenerse, salvo si ya no se puede hacerlo con seguridad",
-      "Circular solo a 30 km/h"
+      "Detenerse y, en su caso, seguir las instrucciones del agente.",
+      "Reducir la velocidad y apartarse a la derecha, para facilitar el adelantamiento.",
+      "Detenerse en el lado izquierdo de la calzada, delante del vehículo policial."
     ],
-    "correcta": 1,
-    "explicacion": "Equivale a detenerse, salvo si estás tan cerca que no puedes hacerlo con seguridad suficiente.",
-    "imagen": "amber.jpg",
-    "visual": "senal",
-    "fuente": "RGC art. 146"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 14 del test 278 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 14
   },
   {
     "id": 7,
-    "tema": "Prioridad",
-    "pregunta": "En una intersección sin señales, ¿a quién debes ceder el paso, como regla general?",
+    "tema": "Parada",
+    "pregunta": "El conductor de una motocicleta, ¿tiene permitido realizar una parada en un carril reservado para autobuses?",
     "opciones": [
-      "A quien venga por la derecha",
-      "A quien circule más rápido",
-      "A quien vaya por la izquierda"
+      "Sí, mientras no obstaculice la circulación de autobuses.",
+      "No, está prohibido.",
+      "Está permitido parar, pero no estacionar."
     ],
-    "correcta": 0,
-    "explicacion": "En defecto de señalización, se cede a vehículos que se aproximen por la derecha, con excepciones legales.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 57"
+    "correcta": 1,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 2 del test 277 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 2
   },
   {
     "id": 8,
-    "tema": "Prioridad",
-    "pregunta": "Al entrar en una glorieta, ¿quién tiene prioridad?",
+    "tema": "Maniobras",
+    "pregunta": "¿Puede incorporarse a la circulación desde un estacionamiento circulando marcha atrás?",
     "opciones": [
-      "El vehículo que entra",
-      "El vehículo que ya circula dentro",
-      "El vehículo de mayor tamaño"
+      "Sí, mientras no invada un cruce de vías.",
+      "Sí, mientras que el recorrido no sea superior a 20 metros.",
+      "Sí, aunque el recorrido sea superior a 20 metros."
     ],
-    "correcta": 1,
-    "explicacion": "En las glorietas tienen preferencia quienes ya están dentro, salvo señalización en contrario.",
-    "imagen": "roundabout.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 57"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 3 del test 277 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 3
   },
   {
     "id": 9,
-    "tema": "Prioridad",
-    "pregunta": "Al girar para entrar en otra vía, cruzas un paso de peatones con gente cruzando. ¿Qué haces?",
+    "tema": "Semáforos",
+    "pregunta": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes de un semáforo...",
     "opciones": [
-      "Cedes el paso a los peatones",
-      "Pasas primero porque tienes semáforo verde",
-      "Tocas el claxon"
+      "permiten el paso con precaución.",
+      "prohíben temporalmente el paso.",
+      "obligan a moderar la velocidad antes de pasar."
     ],
-    "correcta": 0,
-    "explicacion": "Los peatones tienen prioridad en los pasos debidamente señalizados.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 65"
+    "correcta": 1,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 8 del test 277 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 8
   },
   {
     "id": 10,
-    "tema": "Prioridad",
-    "pregunta": "Un agente te ordena detenerte, pero el semáforo está verde. ¿Qué prevalece?",
+    "tema": "Vías",
+    "pregunta": "Como norma general, ¿cómo se denomina el tramo de carretera que discurre por poblado?",
     "opciones": [
-      "El semáforo",
-      "La indicación del agente",
-      "La señal vertical"
+      "Carretera convencional.",
+      "Travesía.",
+      "Autovía."
     ],
     "correcta": 1,
-    "explicacion": "Las órdenes de los agentes prevalecen sobre el resto de señales.",
-    "imagen": "policia.jpg",
-    "visual": "senal",
-    "fuente": "RGC art. 133"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 15 del test 277 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 15
   },
   {
     "id": 11,
-    "tema": "Velocidad",
-    "pregunta": "En una calle urbana con un solo carril por sentido, sin señal específica, el límite genérico es...",
+    "tema": "Vehículo",
+    "pregunta": "A un turismo, ¿le está permitido circular si tiene roto el espejo retrovisor exterior izquierdo?",
     "opciones": [
-      "50 km/h",
-      "30 km/h",
-      "20 km/h"
+      "Sí, porque el retrovisor exterior izquierdo no es obligatorio.",
+      "Sólo si el vehículo tiene espejo retrovisor interior.",
+      "No, cuando el conductor no pueda ver la circulación por detrás del vehículo."
     ],
-    "correcta": 1,
-    "explicacion": "El límite genérico es 30 km/h en vías urbanas con un carril por sentido.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 50"
+    "correcta": 2,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción C como correcta. Consulta la pregunta 1 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 1
   },
   {
     "id": 12,
-    "tema": "Velocidad",
-    "pregunta": "En una vía urbana de plataforma única de calzada y acera, sin señal específica, el límite genérico es...",
+    "tema": "Distracciones",
+    "pregunta": "En una retención en la que están los vehículos detenidos, ¿está permitido usar el teléfono móvil?",
     "opciones": [
-      "20 km/h",
-      "30 km/h",
-      "50 km/h"
+      "No, excepto en vías urbanas.",
+      "Únicamente con un dispositivo de manos libres y sin usar auriculares.",
+      "Sí, porque el vehículo no está en movimiento."
     ],
-    "correcta": 0,
-    "explicacion": "En vías de plataforma única el límite genérico es 20 km/h.",
-    "imagen": "pedestrian.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 50"
+    "correcta": 1,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 3 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 3
   },
   {
     "id": 13,
-    "tema": "Velocidad",
-    "pregunta": "En una calle urbana de dos o más carriles por sentido, sin señal específica, el límite genérico es...",
+    "tema": "Semáforos",
+    "pregunta": "Una luz verde en forma de flecha apuntando hacia abajo en un semáforo de carril...",
     "opciones": [
-      "30 km/h",
-      "50 km/h",
-      "90 km/h"
+      "obliga a no abandonar el carril sobre el que está colocada.",
+      "exime de la obligación de detenerse ante una luz roja circular.",
+      "No exime de tener que cumplir las normas generales sobre prioridad de paso."
     ],
-    "correcta": 1,
-    "explicacion": "En vías urbanas con dos o más carriles por sentido el límite genérico es 50 km/h.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 50"
+    "correcta": 2,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción C como correcta. Consulta la pregunta 4 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 4
   },
   {
     "id": 14,
-    "tema": "Velocidad",
-    "pregunta": "Para un turismo en autopista o autovía, sin señal específica, la máxima genérica es...",
+    "tema": "Alumbrado",
+    "pregunta": "Entre la puesta y la salida del sol, ¿puede encender la luz de largo alcance en caso de niebla?",
     "opciones": [
-      "90 km/h",
-      "100 km/h",
-      "120 km/h"
+      "Sí, procurando no deslumbrar a otros usuarios de la vía.",
+      "Sólo en carreteras con un carril para cada sentido de la circulación.",
+      "No, está prohibido."
     ],
-    "correcta": 2,
-    "explicacion": "El límite genérico para turismos en autopistas y autovías es 120 km/h.",
-    "imagen": "highway.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 48"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 5 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 5
   },
   {
     "id": 15,
-    "tema": "Velocidad",
-    "pregunta": "Aunque el límite sea 90 km/h, con niebla espesa debes...",
+    "tema": "Maniobras",
+    "pregunta": "Si quiere abandonar una autovía, ¿en qué momento debe entrar en el carril de deceleración?",
     "opciones": [
-      "Mantener 90 km/h obligatoriamente",
-      "Adaptar la velocidad a la visibilidad y las circunstancias",
-      "Parar siempre en el carril"
+      "Lo antes posible.",
+      "Es indiferente, en cualquier momento mientras la línea sea discontinua.",
+      "Lo más tarde posible."
     ],
-    "correcta": 1,
-    "explicacion": "Debes adaptar la velocidad a la visibilidad, vía y tráfico, aunque esté por debajo del máximo.",
-    "imagen": "fog.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 45"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 8 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 8
   },
   {
     "id": 16,
-    "tema": "Seguridad",
-    "pregunta": "¿Quién debe usar el cinturón de seguridad cuando el vehículo lo tiene instalado?",
+    "tema": "Parada",
+    "pregunta": "¿Está permitido estacionar en doble fila?",
     "opciones": [
-      "Solo quien conduce",
-      "Conductor y ocupantes, con las excepciones reglamentarias",
-      "Solo quienes viajan delante"
+      "Sí, siempre que el conductor no abandone el vehículo.",
+      "No, en ningún caso.",
+      "Sólo cuando la duración del estacionamiento sea inferior a dos minutos."
     ],
     "correcta": 1,
-    "explicacion": "Conductor y ocupantes deben usarlo según la normativa, con excepciones específicas.",
-    "imagen": "seatbelt.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 117"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 9 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 9)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 9
   },
   {
     "id": 17,
-    "tema": "Seguridad",
-    "pregunta": "Si notas sueño al volante, ¿cuál es la opción segura?",
+    "tema": "Peatones",
+    "pregunta": "En una vía fuera de poblado en la que no exista zona peatonal ni arcén practicable, ¿está permitido que un peatón circule por la calzada?",
     "opciones": [
-      "Abrir la ventanilla y seguir",
-      "Detenerte en un lugar seguro y descansar",
-      "Subir el volumen de la radio"
+      "Sí, siempre que tome las debidas precauciones.",
+      "Sólo si arrastra un vehículo de reducidas dimensiones que no sea de motor.",
+      "No."
     ],
-    "correcta": 1,
-    "explicacion": "El descanso efectivo es la respuesta al sueño; trucos como música o aire no lo sustituyen.",
-    "imagen": "fog.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 18; DGT seguridad vial"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 10 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 10
   },
   {
     "id": 18,
-    "tema": "Seguridad",
-    "pregunta": "Si conduces, ¿puedes sujetar el móvil en la mano para consultar el mapa?",
+    "tema": "ITV",
+    "pregunta": "Acaba de comprar un turismo nuevo; ¿cuándo debe presentarlo a la primera inspección técnica reglamentaria?",
     "opciones": [
-      "Sí, si vas despacio",
-      "No",
-      "Sí, solo en autopista"
+      "A los cuatro años, a contar desde la fecha de compra.",
+      "A los dos años, a contar desde la fecha de matriculación.",
+      "A los cuatro años, a contar desde la fecha de matriculación."
     ],
-    "correcta": 1,
-    "explicacion": "Está prohibido usar sujetando con la mano un dispositivo de telefonía móvil durante la conducción.",
-    "imagen": "phone.jpg",
-    "visual": "foto",
-    "fuente": "Ley de Tráfico art. 76.g"
+    "correcta": 2,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción C como correcta. Consulta la pregunta 12 del test 276 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 12
   },
   {
     "id": 19,
-    "tema": "Seguridad",
-    "pregunta": "Si un menor mide 125 cm, ¿qué sistema debe utilizar habitualmente en un turismo?",
+    "tema": "Vehículo",
+    "pregunta": "¿Está permitido circular con un vehículo cuyas placas de matrícula presentan obstáculos que impiden o dificultan su lectura e identificación?",
     "opciones": [
-      "Solo cinturón de adulto",
-      "Un sistema de retención infantil adecuado a su talla y peso",
-      "Puede ir sin retención detrás"
+      "No; el conductor debe verificar que las placas de matrícula se pueden leer correctamente.",
+      "Sí, siempre que la placa de matrícula delantera se pueda leer correctamente.",
+      "Sí, siempre que el vehículo solo circule por vías urbanas y travesías."
     ],
-    "correcta": 1,
-    "explicacion": "Los menores de estatura igual o inferior a 135 cm deben emplear un sistema de retención infantil adecuado, salvo excepciones reglamentarias.",
-    "imagen": "childseat.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 117"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 1 del test 273 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 1
   },
   {
     "id": 20,
-    "tema": "Seguridad",
-    "pregunta": "Al acercarte a un paso de peatones con visibilidad reducida por coches aparcados, conviene...",
+    "tema": "Carriles",
+    "pregunta": "En vías interurbanas con tres carriles para el mismo sentido, ¿le está permitido circular por el carril izquierdo a un turismo con remolque?",
     "opciones": [
-      "Acelerar para no estorbar",
-      "Reducir la velocidad y prepararte para detenerte",
-      "Mirar solo el semáforo"
+      "Sí, cuando la longitud del conjunto no supere los 7 metros.",
+      "Sí, pero solo para adelantar a otros vehículos.",
+      "No, en ningún caso."
     ],
-    "correcta": 1,
-    "explicacion": "La visibilidad limitada exige moderar la velocidad y anticipar peatones.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC arts. 45, 46 y 65"
+    "correcta": 0,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 3 del test 273 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 3
   },
   {
     "id": 21,
     "tema": "Adelantamiento",
-    "pregunta": "Por regla general, ¿por qué lado se adelanta a otro vehículo?",
+    "pregunta": "Cuando se adelante a vehículos de tracción animal, fuera de poblado, la separación lateral...",
     "opciones": [
-      "Por la izquierda",
-      "Por la derecha",
-      "Por cualquiera indistintamente"
+      "no debe ser inferior a 1,5 metros.",
+      "debe ser inferior a 1,5 metros, en todos los casos.",
+      "debe ser siempre proporcional a la anchura y características de la vía."
     ],
     "correcta": 0,
-    "explicacion": "Como regla general el adelantamiento se efectúa por la izquierda, con excepciones reguladas.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 82"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 5 del test 273 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 5
   },
   {
     "id": 22,
-    "tema": "Adelantamiento",
-    "pregunta": "Antes de adelantar, ¿qué debes comprobar?",
+    "tema": "Alumbrado",
+    "pregunta": "¿Qué alumbrado deberá dejar encendido, como norma general, el conductor de un vehículo inmovilizado entre la puesta y la salida del sol en el arcén de una travesía insuficientemente iluminada?",
     "opciones": [
-      "Que tienes visibilidad y espacio suficientes y que puedes hacerlo sin peligro",
-      "Que el vehículo delantero no te ha visto",
-      "Que puedes superar siempre el límite de velocidad"
+      "Ninguno.",
+      "Las luces de emergencia.",
+      "Las luces de posición."
     ],
-    "correcta": 0,
-    "explicacion": "Solo debe iniciarse el adelantamiento si puede hacerse con seguridad y sin entorpecer a otros.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC arts. 84-85"
+    "correcta": 2,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción C como correcta. Consulta la pregunta 6 del test 273 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 6)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 6
   },
   {
     "id": 23,
-    "tema": "Adelantamiento",
-    "pregunta": "Si no puedes adelantar con seguridad a una bicicleta, debes...",
+    "tema": "Conducción",
+    "pregunta": "Si ha dormido mal o no ha dormido lo suficiente debe tener en cuenta que...",
     "opciones": [
-      "Adelantar igualmente tocando el claxon",
-      "Esperar hasta que sea seguro",
-      "Circular pegado a su rueda"
+      "conducir por una autovía durante horas impide la aparición del sueño.",
+      "no se encuentra en perfectas condiciones para conducir.",
+      "una taza de café elimina la fatiga y le ayuda a concentrarse."
     ],
     "correcta": 1,
-    "explicacion": "Espera a poder completar la maniobra respetando distancias y seguridad.",
-    "imagen": "bike.jpg",
-    "visual": "foto",
-    "fuente": "RGC arts. 85 y 88"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 11 del test 273 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 11
   },
   {
     "id": 24,
-    "tema": "Adelantamiento",
-    "pregunta": "Una línea longitudinal continua que separa sentidos de circulación indica, como norma general, que...",
+    "tema": "Carriles",
+    "pregunta": "Un conductor que señaliza un cambio de carril, ¿tiene preferencia sobre los conductores de los vehículos que circulan por el carril al que se pretende desplazar?",
     "opciones": [
-      "Se puede atravesar sin más si no viene nadie",
-      "No debes atravesarla para adelantar, salvo excepciones previstas",
-      "Obliga a girar a la izquierda"
+      "Sí.",
+      "No.",
+      "Sólo si va a adelantar a un vehículo de grandes dimensiones."
     ],
     "correcta": 1,
-    "explicacion": "La línea continua no debe atravesarse salvo excepciones expresamente previstas.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 167"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 1 del test 271 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 1
   },
   {
     "id": 25,
-    "tema": "Luces",
-    "pregunta": "De noche en una vía insuficientemente iluminada, al cruzarte con otro vehículo, ¿qué debes hacer con las luces de carretera?",
+    "tema": "Emergencias",
+    "pregunta": "¿Qué debe hacer el conductor de un vehículo que, por motivos de emergencia, quede inmovilizado dentro de un paso inferior?",
     "opciones": [
-      "Mantenerlas siempre",
-      "Cambiar a luces de cruce para no deslumbrar",
-      "Apagar todas las luces"
+      "Permanecer en el interior del vehículo.",
+      "Inmovilizar el vehículo lo más cerca posible del borde izquierdo de la calzada.",
+      "Solicitar auxilio a través del poste de socorro más próximo, si existiese."
     ],
-    "correcta": 1,
-    "explicacion": "Hay que evitar deslumbrar sustituyendo las luces de carretera por las de cruce.",
-    "imagen": "lights.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 102"
+    "correcta": 2,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción C como correcta. Consulta la pregunta 2 del test 271 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 2
   },
   {
     "id": 26,
-    "tema": "Luces",
-    "pregunta": "Si entras en un túnel suficientemente iluminado durante el día, ¿debes llevar alguna luz?",
+    "tema": "Seguridad",
+    "pregunta": "Se debe desactivar el airbag frontal cuando en el asiento correspondiente al copiloto...",
     "opciones": [
-      "Sí, las de cruce como mínimo",
-      "No hace falta ninguna",
-      "Solo las de carretera"
+      "viaje una mujer embarazada.",
+      "se instale un dispositivo de retención infantil orientado hacia atrás.",
+      "se instale un dispositivo de retención infantil orientado hacia delante."
     ],
-    "correcta": 0,
-    "explicacion": "En túneles se utilizan las luces de posición y cruce, al menos, incluso de día.",
-    "imagen": "tunnel.jpg",
-    "visual": "foto",
-    "fuente": "RGC arts. 100 y 101"
+    "correcta": 1,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 7 del test 271 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 7
   },
   {
     "id": 27,
-    "tema": "Luces",
-    "pregunta": "Con lluvia muy intensa que reduce mucho la visibilidad, ¿qué es lo prudente?",
+    "tema": "Velocidad",
+    "pregunta": "En una autopista que transcurre por zona urbana, ¿a qué velocidad máxima puede circular un turismo si no existe señalización?",
     "opciones": [
-      "Adaptar velocidad, ampliar distancia y encender luces adecuadas",
-      "Mantener la distancia habitual",
-      "Usar luces de carretera para ver más"
+      "A 80 km/h.",
+      "A 120 km/h.",
+      "A 100 km/h."
     ],
     "correcta": 0,
-    "explicacion": "La reducción de visibilidad exige velocidad y distancia adaptadas, con alumbrado apropiado.",
-    "imagen": "rain.jpg",
-    "visual": "foto",
-    "fuente": "RGC arts. 45, 104 y 106"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 8 del test 271 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 8
   },
   {
     "id": 28,
-    "tema": "Estacionamiento",
-    "pregunta": "¿Está permitido estacionar sobre un paso para peatones?",
+    "tema": "Alumbrado",
+    "pregunta": "Si debido a la lluvia intensa, en una vía interurbana no se distingue un vehículo de color negro a 50 metros de distancia, ¿es posible circular con el alumbrado de largo alcance encendido?",
     "opciones": [
-      "Sí, si es de noche",
-      "No",
-      "Sí, si dejas las luces de emergencia"
+      "No, está prohibido.",
+      "Sí, porque la vía está insuficientemente iluminada.",
+      "Sólo se puede encender la luz de cruce y la antiniebla delantera."
     ],
     "correcta": 1,
-    "explicacion": "Está prohibido parar y estacionar en pasos para peatones.",
-    "imagen": "city.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 94"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción B como correcta. Consulta la pregunta 10 del test 271 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 10
   },
   {
     "id": 29,
-    "tema": "Estacionamiento",
-    "pregunta": "Si te detienes ante una avería en carretera, ¿qué es prioritario?",
+    "tema": "Vehículo",
+    "pregunta": "La parte externa de uno de los neumáticos de su vehículo presenta una deformación en forma de bulto, ¿es recomendable sustituir el neumático lo antes posible?",
     "opciones": [
-      "Señalizar la inmovilización y protegerte en un lugar seguro",
-      "Quedarte en el carril para pedir ayuda",
-      "Empujar el coche sin señalizar"
+      "Sí, porque aumenta la posibilidad de sufrir un reventón.",
+      "No. Se puede seguir circulando con seguridad ya que no supone un riesgo importante.",
+      "No; no es necesario sustituirlo ya que siempre se puede reparar en un  taller especializado."
     ],
     "correcta": 0,
-    "explicacion": "Señaliza y toma medidas para evitar riesgos para ti y otros usuarios.",
-    "imagen": "breakdown.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 130"
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción A como correcta. Consulta la pregunta 11 del test 271 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 11
   },
   {
     "id": 30,
-    "tema": "Conducción",
-    "pregunta": "Si un vehículo prioritario en servicio urgente se aproxima con señales especiales, debes...",
+    "tema": "Carriles",
+    "pregunta": "Los carriles reversibles están delimitados por marcas longitudinales…",
     "opciones": [
-      "Facilitarle el paso de forma segura",
-      "Competir para llegar antes a la intersección",
-      "Frenar en seco siempre"
+      "discontinuas con una separación sensiblemente más corta.",
+      "discontinuas simples a ambos lados.",
+      "dobles discontinuas a ambos lados."
     ],
-    "correcta": 0,
-    "explicacion": "Los demás conductores deben facilitar el paso a los vehículos prioritarios sin crear otro peligro.",
-    "imagen": "ambulance.jpg",
-    "visual": "foto",
-    "fuente": "RGC art. 69"
+    "correcta": 2,
+    "explicacion": "La revista Tráfico y Seguridad Vial de la DGT marca la opción C como correcta. Consulta la pregunta 13 del test 271 y la normativa vigente para ampliar la explicación.",
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 13)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 13
   }
 ]

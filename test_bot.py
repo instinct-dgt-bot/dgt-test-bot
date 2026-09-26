@@ -22,6 +22,17 @@ class BotTests(unittest.IsolatedAsyncioTestCase):
         for q in bot.QUESTIONS:
             self.assertEqual(len(q['opciones']),3)
             self.assertIn(q['correcta'],(0,1,2))
+    async def test_answers_visible_without_truncated_buttons(self):
+        with bot.db() as con:
+            bot.begin(con, 12, 'exam', [1])
+            b = AsyncMock()
+            await bot.show_question(b, 12, bot.session(con, 12))
+            message = b.send_message.call_args.args[1]
+            q = bot.BY_ID[1]
+            for letter, text in zip("ABC", q['opciones']):
+                self.assertIn(f"{letter}) {text}", message)
+            keyboard = b.send_message.call_args.kwargs['reply_markup']
+            self.assertEqual([button.text for button in keyboard.inline_keyboard[0]], ['A','B','C'])
     def test_exam_session_and_pause_clock(self):
         with bot.db() as con:
             bot.begin(con, 12,'exam',list(range(1,31)))

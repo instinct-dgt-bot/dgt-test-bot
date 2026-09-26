@@ -1,6 +1,6 @@
 # Bot de práctica del teórico B (prototipo)
 
-30 preguntas **originales**, no copiadas del banco de examen de la DGT. No es un producto oficial ni sustituye la preparación reglada. Las referencias normativas de cada pregunta son una ayuda para revisar la respuesta; antes de usarlo a largo plazo, conviene revisar el banco cuando cambie la normativa.
+30 preguntas **publicadas por la DGT en la revista Tráfico y Seguridad Vial**, con la corrección publicada y enlace a cada pregunta. No son la totalidad del banco privado de exámenes; no se asegura que cada pregunta haya aparecido literalmente en una prueba oficial. No es un producto oficial ni sustituye la preparación reglada. Las respuestas se cotejaron con la corrección publicada por la revista, pero conviene revisar el banco cuando cambie la normativa.
 
 ## Qué hace
 
@@ -9,7 +9,7 @@
 - `/diario`: hace la práctica diaria en ese momento; no envía un segundo lote el mismo día.
 - `/examen`: 30 preguntas aleatorias, 30 minutos activos, aprobado con como máximo 3 errores. El cronómetro se congela con `/pausar` y continúa con `/seguir`; `/abandonar` cancela. `/repetir` ofrece los errores respondidos en el último test. En el examen, da las explicaciones al terminar, no durante la prueba. Al agotarse el plazo, las no respondidas cuentan como fallo.
 - Estadísticas por tema al terminar, resumen de aciertos de los últimos siete días y racha diaria; prioriza temas fallados en el historial. Guarda progreso en SQLite.
-- Las 30 preguntas incluyen una imagen local verificada: fotos reales para escenas de tráfico y señales normativas para señales. Algunas fotografías sirven de contexto y no muestran literalmente todos los detalles hipotéticos del enunciado; la regla se responde según el texto. Los créditos y licencias están en `CREDITOS.md`.
+- Las opciones completas aparecen en el mensaje, con botones A/B/C que no se cortan. No hay fotos de relleno: se excluyeron preguntas dependientes de imágenes que no podían reproducirse legalmente, y el banco actual no muestra imágenes. Consulta la atribución y las condiciones de reutilización en `CREDITOS.md`.
 
 ## Probarlo localmente
 
@@ -37,12 +37,12 @@ Railway o Render también pueden ejecutar el proceso como *worker*, pero sus pla
 
 ## Añadir fotos reales
 
-Guarda una foto real de una escena vial en `assets/` y escribe el nombre del archivo en `imagen` de la pregunta relevante en `questions.json`, por ejemplo `"imagen": "paso-peatones.jpg"`. La ruta es local y relativa a `assets`. No pongas URLs remotas sin descargarlas primero. Comprueba licencia, autor y que la foto representa la situación de la pregunta; anota su crédito en `CREDITOS.md`. Para una señal puedes usar una imagen legalmente reutilizable, no una foto inventada o una ilustración presentada como real. El código muestra la imagen antes de la pregunta. `visual: "foto"` indica necesidad de escena fotográfica; `visual: "senal"` indica placa/señal.
+Solo si una pregunta exige observar la imagen, guarda una foto o señal exacta y con licencia reutilizable en `assets/` y escribe el nombre del archivo en `imagen` de la pregunta relevante en `questions.json`, por ejemplo `"imagen": "paso-peatones.jpg"`. La ruta es local y relativa a `assets`. No pongas URLs remotas sin descargarlas primero. Comprueba licencia, autor y que la foto representa la situación de la pregunta; anota su crédito en `CREDITOS.md`. Para una señal puedes usar una imagen legalmente reutilizable, no una foto inventada o una ilustración presentada como real. El código muestra la imagen antes de la pregunta. No añadas una imagen si no es necesaria para responder.
 
 ## Fuentes y créditos
 
 - Normativa consolidada, Reglamento General de Circulación: https://www.boe.es/eli/es/rd/2003/11/21/1428/con/
-- Práctica oficial de la DGT (para contraste, no se copian preguntas): https://www.dgt.es/nuestros-servicios/permisos-de-conducir/obtener-un-nuevo-permiso-de-conducir/requisitos-preparacion-y-presentacion-a-examen
+- Tests de examen de la DGT (distintos de la selección publicada por su revista): https://www.dgt.es/nuestros-servicios/permisos-de-conducir/obtener-un-nuevo-permiso-de-conducir/requisitos-preparacion-y-presentacion-a-examen
 - Telegram BotFather: https://core.telegram.org/bots/tutorial
 - Biblioteca y programador de tareas: https://docs.python-telegram-bot.org/en/stable/telegram.ext.jobqueue.html
 - Créditos de imágenes en `CREDITOS.md`.
@@ -55,6 +55,6 @@ Fuente oficial de límites: https://render.com/docs/free
 
 ## Mantener el banco y publicar cambios
 
-`questions.json` contiene una lista de 30 preguntas. Cada objeto lleva `id` único, `tema`, `pregunta`, `opciones` (tres textos), `correcta` (índice 0, 1 o 2), `explicacion`, `imagen` (archivo local en `assets/`), `visual` (`foto` o `senal`) y `fuente` (artículo o fuente). Para cambiar una pregunta, edita su objeto conservando el `id` y las tres opciones. Para añadir una foto, colócala en `assets/`, enlaza el nombre en `imagen` y añade autor/licencia/fuente en `CREDITOS.md`; verifica visualmente que de verdad corresponde al supuesto. Nunca subas fotos sin licencia ni claves. Ejecuta `python -m unittest -v test_bot.py`, comprueba que los 30 `imagen` apuntan a archivos existentes y prueba la pregunta en Telegram.
+`questions.json` contiene 30 preguntas publicadas por la DGT. Cada objeto lleva `id` único, `tema`, `pregunta`, `opciones` (tres textos), `correcta` (índice 0, 1 o 2), `explicacion`, `fuente`, `numero_test` y `pregunta_original`. `imagen` es opcional, solo para una imagen necesaria y autorizada. Para cambiar una pregunta, verifica su texto y respuesta contra el enlace oficial en `fuente`; actualiza el `id` y las tres opciones si procede. Para añadir una foto, colócala en `assets/`, enlaza el nombre en `imagen` y añade autor/licencia/fuente en `CREDITOS.md`; verifica visualmente que de verdad corresponde al supuesto. Nunca subas fotos sin licencia ni claves. Ejecuta `python -m unittest -v test_bot.py`, si has añadido alguna `imagen`, comprueba que apunte a un archivo existente y prueba la pregunta en Telegram.
 
-Si Render está conectado al repositorio Git, un commit en la rama desplegada inicia un nuevo deploy cuando auto-deploy está activado. Si se usó la opción de URL de repositorio público, revisa en Render si auto-deploy se ofrece o lanza un deploy manual después del push. Verifica `/health`, `/start` y `/diario` al terminar. El nuevo deploy borra el SQLite local en Render Free: las personas tendrán que volver a pulsar `/start` antes de los avisos diarios. No conviertas el token en archivo `.env` versionado; edita las variables de entorno en Render.
+Si Render está conectado al repositorio Git, un commit en la rama desplegada inicia un nuevo deploy cuando auto-deploy está activado. Si se usó la opción de URL de repositorio público, revisa en Render si auto-deploy se ofrece o lanza un deploy manual después del push. Verifica `/health`, `/start` y `/diario` al terminar. Render Free puede borrar el SQLite local en un redeploy; si ocurre, hay que pulsar `/start` de nuevo. Aunque el archivo sobreviva, al cambiar el banco se cancelan los exámenes activos y se limpia el historial para evitar puntuar IDs antiguos como preguntas nuevas. No conviertas el token en archivo `.env` versionado; edita las variables de entorno en Render. Un cambio del banco requiere volver a iniciar la práctica tras el despliegue; en Render Free los datos efímeros pueden perderse.
