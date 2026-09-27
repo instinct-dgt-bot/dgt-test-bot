@@ -172,7 +172,7 @@ async def finish(bot, con, chat_id, s, timed_out=False):
 
 
 async def deadline_check(bot, con, chat_id, s):
-    if s and s["status"] == "active" and s["mode"] == "exam" and remaining_seconds(s) <= 0:
+    if s and s["status"] in ("active", "review") and s["mode"] == "exam" and remaining_seconds(s) <= 0:
         await finish(bot, con, chat_id, s, timed_out=True)
         return True
     return False
@@ -194,7 +194,7 @@ async def begin_command(update, ctx, mode):
     chat_id = update.effective_chat.id
     with db() as con:
         s = session(con, chat_id)
-        if s and s["status"] in ("active", "paused"):
+        if s and s["status"] in ("active", "paused", "review", "paused_review"):
             if await deadline_check(ctx.bot, con, chat_id, s):
                 s = session(con, chat_id)
             else:
@@ -252,11 +252,44 @@ async def answer(update, ctx):
         q = BY_ID[qid]
         answers = json.loads(s["answers"])
         answers.append({"id": qid, "choice": choice})
-        con.execute("UPDATE sessions SET pos=pos+1,answers=?,nonce=nonce+1 WHERE chat_id=?", (json.dumps(answers), chat_id))
+        con.execute("UPDATE sessions SET pos=pos+1,answers=?,status='review',nonce=nonce+1 WHERE chat_id=?", (json.dumps(answers), chat_id))
         con.commit()
         s = session(con, chat_id)
-        await ctx.bot.send_message(chat_id, correction(q, choice))
-        if s["pos"] == len(ids):
+        label = "📊 Ver resultado" if s["pos"] == len(ids) else "➡️ Siguiente pregunta"
+        button = InlineKeyboardMarkup([[InlineKeyboardButton(label, callback_data=f"n:{s['nonce']}:{s['pos']}")]])
+        await ctx.bot.send_message(chat_id, correction(q, choice), reply_markup=button)
+
+
+async def next_question(update, ctx):
+    query = update.callback_query
+    if query.message.chat.type != "private" or query.from_user.id != query.message.chat.id:
+        await query.answer("Esta pregunta no es tuya.", show_alert=True)
+        return
+    try:
+        _, nonce, pos = query.data.split(":")
+        nonce, pos = int(nonce), int(pos)
+    except (ValueError, AttributeError):
+        await query.answer("Botón no válido.", show_alert=True)
+        return
+    chat_id = query.message.chat.id
+    with db() as con:
+        s = session(con, chat_id)
+        if not s or s["status"] != "review":
+            await query.answer("Reanuda el test o utiliza el botón de la corrección actual.", show_alert=True)
+            return
+        if await deadline_check(ctx.bot, con, chat_id, s):
+            await query.answer("Se terminó el tiempo.", show_alert=True)
+            return
+        if s["nonce"] != nonce or s["pos"] != pos:
+            await query.answer("Esta corrección ya no está activa.", show_alert=True)
+            return
+        await query.answer()
+        # Persist the transition before sending, so double-taps cannot advance twice.
+        con.execute("UPDATE sessions SET status='active',nonce=nonce+1 WHERE chat_id=?", (chat_id,))
+        con.commit()
+        s = session(con, chat_id)
+        await query.edit_message_reply_markup(reply_markup=None)
+        if s["pos"] == len(json.loads(s["ids"])):
             await finish(ctx.bot, con, chat_id, s)
         else:
             await show_question(ctx.bot, chat_id, s)
@@ -265,33 +298,40 @@ async def answer(update, ctx):
 async def pause(update, ctx):
     with db() as con:
         s = session(con, update.effective_chat.id)
-        if not s or s["status"] != "active":
+        if not s or s["status"] not in ("active", "review"):
             await update.message.reply_text("No hay un test activo.")
             return
         if await deadline_check(ctx.bot, con, update.effective_chat.id, s):
             return
         remain = remaining_seconds(s) if s["mode"] == "exam" else None
-        con.execute("UPDATE sessions SET status='paused',remaining=?,deadline=NULL,nonce=nonce+1 WHERE chat_id=?", (remain, update.effective_chat.id))
+        paused_status = "paused_review" if s["status"] == "review" else "paused"
+        con.execute("UPDATE sessions SET status=?,remaining=?,deadline=NULL,nonce=nonce+? WHERE chat_id=?",
+                    (paused_status, remain, 0 if paused_status == "paused_review" else 1, update.effective_chat.id))
     await update.message.reply_text("Pausado. /seguir para reanudar. El cronómetro queda detenido.")
 
 
 async def resume(update, ctx):
     with db() as con:
         s = session(con, update.effective_chat.id)
-        if not s or s["status"] != "paused":
+        if not s or s["status"] not in ("paused", "paused_review"):
             await update.message.reply_text("No hay un test pausado.")
             return
         deadline = (now()+timedelta(seconds=s["remaining"])).isoformat() if s["mode"] == "exam" else None
-        con.execute("UPDATE sessions SET status='active',deadline=?,remaining=NULL,nonce=nonce+1 WHERE chat_id=?", (deadline, update.effective_chat.id))
+        was_review = s["status"] == "paused_review"
+        con.execute("UPDATE sessions SET status=?,deadline=?,remaining=NULL,nonce=nonce+? WHERE chat_id=?",
+                    ("review" if was_review else "active", deadline, 0 if was_review else 1, update.effective_chat.id))
         con.commit()
         s = session(con, update.effective_chat.id)
-    await show_question(ctx.bot, update.effective_chat.id, s)
+    if was_review:
+        await update.message.reply_text("Reanudado. Pulsa el botón bajo la última corrección cuando quieras continuar.")
+    else:
+        await show_question(ctx.bot, update.effective_chat.id, s)
 
 
 async def abandon(update, ctx):
     with db() as con:
         s = session(con, update.effective_chat.id)
-        if not s or s["status"] not in ("active","paused"):
+        if not s or s["status"] not in ("active","paused","review","paused_review"):
             await update.message.reply_text("No hay un test en curso.")
             return
         con.execute("UPDATE sessions SET status='abandoned',deadline=NULL,nonce=nonce+1 WHERE chat_id=?", (update.effective_chat.id,))
@@ -305,7 +345,7 @@ async def repeat(update, ctx):
         if not s:
             await update.message.reply_text("Aún no tienes fallos para repetir.")
             return
-        if s["status"] in ("active","paused"):
+        if s["status"] in ("active","paused","review","paused_review"):
             if await deadline_check(ctx.bot, con, chat_id, s):
                 s = session(con, chat_id)
             else:
@@ -333,8 +373,8 @@ async def daily_job(ctx):
         for row in users:
             chat_id = row["chat_id"]
             s = session(con, chat_id)
-            if s and s["status"] in ("active","paused"):
-                if s["status"] == "active" and await deadline_check(ctx.bot, con, chat_id, s):
+            if s and s["status"] in ("active","paused","review","paused_review"):
+                if s["status"] in ("active", "review") and await deadline_check(ctx.bot, con, chat_id, s):
                     pass
                 else:
                     continue
@@ -350,7 +390,7 @@ async def daily_job(ctx):
 
 async def expiry_job(ctx):
     with db() as con:
-        rows = con.execute("SELECT chat_id FROM sessions WHERE status='active' AND mode='exam' AND deadline IS NOT NULL AND deadline<=?", (now().isoformat(),)).fetchall()
+        rows = con.execute("SELECT chat_id FROM sessions WHERE status IN ('active','review') AND mode='exam' AND deadline IS NOT NULL AND deadline<=?", (now().isoformat(),)).fetchall()
         for row in rows:
             await deadline_check(ctx.bot, con, row["chat_id"], session(con, row["chat_id"]))
 
@@ -364,6 +404,7 @@ def main():
     for name, callback in [("start",start),("diario",daily),("examen",exam),("pausar",pause),("seguir",resume),("abandonar",abandon),("repetir",repeat),("baja",optout)]:
         app.add_handler(CommandHandler(name,callback))
     app.add_handler(CallbackQueryHandler(answer, pattern=r"^a:\d+:\d+:[012]$"))
+    app.add_handler(CallbackQueryHandler(next_question, pattern=r"^n:\d+:\d+$"))
     app.job_queue.run_daily(daily_job, time=time(int(os.getenv("DAILY_HOUR","9")), int(os.getenv("DAILY_MINUTE","0")), tzinfo=TZ), name="daily")
     app.job_queue.run_repeating(expiry_job, interval=15, first=5, name="expiry")
     app.run_polling(drop_pending_updates=False)
