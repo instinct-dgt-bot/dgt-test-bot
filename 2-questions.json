@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "tema": "Adelantamiento",
+    "pregunta": "¿Puede adelantar en un túnel con un solo carril para cada sentido?",
+    "opciones": [
+      "No, ya que su sentido de la marcha sólo dispone de un carril.",
+      "Sí, si en sentido contrario no circula ningún vehículo.",
+      "No; en los túneles siempre está prohibido adelantar."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 3,
+    "regla": "En un túnel, no adelantes si tu sentido solo tiene un carril.",
+    "detalle": "La prohibición se refiere a la falta de espacio para adelantar sin invadir el sentido contrario; no significa que todo adelantamiento en túneles esté prohibido."
+  },
+  {
+    "id": 2,
+    "tema": "Vehículo",
+    "pregunta": "Si se ve obligado a circular con una rueda de repuesto de uso temporal o de emergencia, ¿qué debe tener en cuenta?",
+    "opciones": [
+      "Las indicaciones de los fabricantes de este tipo de repuestos.",
+      "Que si está homologada su duración es la misma que la de una rueda normal.",
+      "Que su presión debe ser superior a la de las otras tres ruedas."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 4,
+    "regla": "Con una rueda de emergencia, sigue las instrucciones de su fabricante.",
+    "detalle": "Puede tener límites de velocidad, presión o distancia distintos de una rueda normal; consulta la etiqueta y el manual de esa rueda."
+  },
+  {
+    "id": 3,
+    "tema": "Circulación",
+    "pregunta": "En vía urbana, cuando utilice el carril que más convenga a su destino, ¿puede abandonar dicho carril?",
+    "opciones": [
+      "Sí, para prepararse a cambiar de dirección, adelantar, parar o estacionar.",
+      "No, en ningún caso.",
+      "Sí, pero sólo para cambiar de dirección."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 7,
+    "regla": "En poblado puedes elegir carril, pero no quedas atrapado en él.",
+    "detalle": "Puedes cambiarlo para girar, adelantar, parar o estacionar, señalizando y respetando la prioridad de quienes ya circulan por el otro carril."
+  },
+  {
+    "id": 4,
+    "tema": "Alumbrado",
+    "pregunta": "Circula con la luz de largo alcance y se acerca a un vehículo que circula a menor velocidad en su mismo sentido de la marcha; ¿debe sustituir la luz de carretera por la de corto alcance?",
+    "opciones": [
+      "No, ya que no es necesario ni aconsejable.",
+      "Sí, para evitar la posibilidad de deslumbramiento a través del espejo retrovisor.",
+      "Solo si no tiene intención de adelantar."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 9)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 9,
+    "regla": "Cambia de largas a cortas si puedes deslumbrar al vehículo de delante.",
+    "detalle": "Las luces largas también pueden molestar por sus espejos retrovisores; no hace falta que venga alguien de frente."
+  },
+  {
+    "id": 5,
+    "tema": "Adelantamiento",
+    "pregunta": "Si un conductor inicia un adelantamiento y se producen circunstancias que hacen difícil finalizar la maniobra...",
+    "opciones": [
+      "debe regresar a su carril y advertirlo a los que circulen por detrás.",
+      "el conductor del vehículo adelantado está obligado a apartarse al arcén.",
+      "debe acelerar y terminar la maniobra, aunque genere una situación de riesgo."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 10,
+    "regla": "Si no puedes terminar un adelantamiento con seguridad, vuelve a tu carril.",
+    "detalle": "Avisa a quienes te siguen y renuncia a la maniobra; forzarla o exigir que el adelantado se aparte aumenta el riesgo."
+  },
+  {
+    "id": 6,
+    "tema": "Agentes",
+    "pregunta": "Si un vehículo de la policía de tráfico se sitúa detrás de usted y enciende un dispositivo con una luz roja destelleante hacia delante, ¿qué debe hacer?",
+    "opciones": [
+      "Detenerse y, en su caso, seguir las instrucciones del agente.",
+      "Reducir la velocidad y apartarse a la derecha, para facilitar el adelantamiento.",
+      "Detenerse en el lado izquierdo de la calzada, delante del vehículo policial."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 14,
+    "regla": "Una luz roja intermitente hacia delante desde el coche policial te ordena detenerte.",
+    "detalle": "Detente en un lugar seguro y sigue las indicaciones del agente; no es una simple petición para dejarle adelantar."
+  },
+  {
+    "id": 7,
+    "tema": "Parada",
+    "pregunta": "El conductor de una motocicleta, ¿tiene permitido realizar una parada en un carril reservado para autobuses?",
+    "opciones": [
+      "Sí, mientras no obstaculice la circulación de autobuses.",
+      "No, está prohibido.",
+      "Está permitido parar, pero no estacionar."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 2,
+    "regla": "No se permite parar en el carril reservado para autobuses.",
+    "detalle": "La prohibición alcanza tanto a la parada breve como al estacionamiento; ir en moto no crea una excepción."
+  },
+  {
+    "id": 8,
+    "tema": "Maniobras",
+    "pregunta": "¿Puede incorporarse a la circulación desde un estacionamiento circulando marcha atrás?",
+    "opciones": [
+      "Sí, mientras no invada un cruce de vías.",
+      "Sí, mientras que el recorrido no sea superior a 20 metros.",
+      "Sí, aunque el recorrido sea superior a 20 metros."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 3,
+    "regla": "Puedes salir marcha atrás de un estacionamiento, sin invadir un cruce.",
+    "detalle": "Haz solo el recorrido imprescindible y con precaución. El límite genérico de la marcha atrás como maniobra complementaria no autoriza invadir un cruce."
+  },
+  {
+    "id": 9,
+    "tema": "Semáforos",
+    "pregunta": "Una luz roja intermitente o dos luces rojas alternativamente intermitentes de un semáforo...",
+    "opciones": [
+      "permiten el paso con precaución.",
+      "prohíben temporalmente el paso.",
+      "obligan a moderar la velocidad antes de pasar."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 8,
+    "regla": "Una luz roja intermitente prohíbe el paso temporalmente.",
+    "detalle": "Una o dos luces rojas alternativamente intermitentes pueden proteger un paso a nivel u otra zona de peligro: espera a que cese la prohibición."
+  },
+  {
+    "id": 10,
+    "tema": "Vías",
+    "pregunta": "Como norma general, ¿cómo se denomina el tramo de carretera que discurre por poblado?",
+    "opciones": [
+      "Carretera convencional.",
+      "Travesía.",
+      "Autovía."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 15,
+    "regla": "El tramo de carretera que atraviesa un poblado es una travesía, por regla general.",
+    "detalle": "No se llama automáticamente autovía ni carretera convencional por estar dentro del poblado."
+  },
+  {
+    "id": 11,
+    "tema": "Vehículo",
+    "pregunta": "A un turismo, ¿le está permitido circular si tiene roto el espejo retrovisor exterior izquierdo?",
+    "opciones": [
+      "Sí, porque el retrovisor exterior izquierdo no es obligatorio.",
+      "Sólo si el vehículo tiene espejo retrovisor interior.",
+      "No, cuando el conductor no pueda ver la circulación por detrás del vehículo."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 1,
+    "regla": "Si el espejo izquierdo roto impide ver el tráfico por detrás, no circules.",
+    "detalle": "Comprueba la visibilidad trasera antes de seguir: el espejo izquierdo es esencial para vigilar vehículos que se acercan y maniobrar."
+  },
+  {
+    "id": 12,
+    "tema": "Distracciones",
+    "pregunta": "En una retención en la que están los vehículos detenidos, ¿está permitido usar el teléfono móvil?",
+    "opciones": [
+      "No, excepto en vías urbanas.",
+      "Únicamente con un dispositivo de manos libres y sin usar auriculares.",
+      "Sí, porque el vehículo no está en movimiento."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 3,
+    "regla": "Detenido en un atasco, no manipules el móvil con la mano.",
+    "detalle": "La respuesta publicada permite usarlo únicamente con manos libres y sin auriculares: estar parado en una retención no equivale a haber terminado la conducción."
+  },
+  {
+    "id": 13,
+    "tema": "Semáforos",
+    "pregunta": "Una luz verde en forma de flecha apuntando hacia abajo en un semáforo de carril...",
+    "opciones": [
+      "obliga a no abandonar el carril sobre el que está colocada.",
+      "exime de la obligación de detenerse ante una luz roja circular.",
+      "No exime de tener que cumplir las normas generales sobre prioridad de paso."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 4,
+    "regla": "La flecha verde hacia abajo habilita ese carril, pero no da prioridad absoluta.",
+    "detalle": "Sigue obedeciendo los semáforos circulares, las señales y las reglas generales de prioridad.",
+    "imagen": "lane-arrow.jpg",
+    "imagen_credito": "Flechas de carril, foto: Cantons-de-l’Est / Wikimedia Commons (CC BY 4.0)"
+  },
+  {
+    "id": 14,
+    "tema": "Alumbrado",
+    "pregunta": "Entre la puesta y la salida del sol, ¿puede encender la luz de largo alcance en caso de niebla?",
+    "opciones": [
+      "Sí, procurando no deslumbrar a otros usuarios de la vía.",
+      "Sólo en carreteras con un carril para cada sentido de la circulación.",
+      "No, está prohibido."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 5,
+    "regla": "Con niebla de noche, las largas pueden usarse si no deslumbran.",
+    "detalle": "Valora si realmente mejoran la visión: la niebla puede reflejar la luz y empeorarla. No molestes a otros usuarios."
+  },
+  {
+    "id": 15,
+    "tema": "Maniobras",
+    "pregunta": "Si quiere abandonar una autovía, ¿en qué momento debe entrar en el carril de deceleración?",
+    "opciones": [
+      "Lo antes posible.",
+      "Es indiferente, en cualquier momento mientras la línea sea discontinua.",
+      "Lo más tarde posible."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 8,
+    "regla": "Para salir de la autovía, entra cuanto antes en el carril de deceleración.",
+    "detalle": "Reduce la velocidad dentro de ese carril, no esperando hasta el último momento para incorporarte a él."
+  },
+  {
+    "id": 16,
+    "tema": "Señales",
+    "pregunta": "¿Está permitido circular con un turismo por una vía en cuyo acceso está situada esta señal?",
+    "opciones": [
+      "No, porque es una vía reservada para todos los vehículos de dos ruedas.",
+      "No, porque es una vía reservada para ciclos.",
+      "Sí, porque es una vía permitida para todos los vehículos, excepto ciclos."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 14,
+    "regla": "La señal redonda azul con una bicicleta reserva esa vía a los ciclos.",
+    "detalle": "Un turismo no puede entrar. La señal se refiere a ciclos, no a todos los vehículos de dos ruedas: por eso la respuesta A también es incorrecta.",
+    "imagen": "r407a.png",
+    "imagen_credito": "Señal española R-407a, NACLE2 / Wikimedia Commons (CC0)"
+  },
+  {
+    "id": 17,
+    "tema": "Peatones",
+    "pregunta": "En una vía fuera de poblado en la que no exista zona peatonal ni arcén practicable, ¿está permitido que un peatón circule por la calzada?",
+    "opciones": [
+      "Sí, siempre que tome las debidas precauciones.",
+      "Sólo si arrastra un vehículo de reducidas dimensiones que no sea de motor.",
+      "No."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 10,
+    "regla": "Si no hay zona peatonal ni arcén practicable, el peatón puede ir por la calzada.",
+    "detalle": "Debe hacerlo con las debidas precauciones; no queda prohibido por completo caminar fuera de poblado."
+  },
+  {
+    "id": 18,
+    "tema": "ITV",
+    "pregunta": "Acaba de comprar un turismo nuevo; ¿cuándo debe presentarlo a la primera inspección técnica reglamentaria?",
+    "opciones": [
+      "A los cuatro años, a contar desde la fecha de compra.",
+      "A los dos años, a contar desde la fecha de matriculación.",
+      "A los cuatro años, a contar desde la fecha de matriculación."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 12,
+    "regla": "La primera ITV de un turismo nuevo llega a los 4 años de su primera matriculación.",
+    "detalle": "Cuenta desde la fecha de matriculación, no desde la compra; después se aplican plazos distintos según la antigüedad."
+  },
+  {
+    "id": 19,
+    "tema": "Vehículo",
+    "pregunta": "¿Está permitido circular con un vehículo cuyas placas de matrícula presentan obstáculos que impiden o dificultan su lectura e identificación?",
+    "opciones": [
+      "No; el conductor debe verificar que las placas de matrícula se pueden leer correctamente.",
+      "Sí, siempre que la placa de matrícula delantera se pueda leer correctamente.",
+      "Sí, siempre que el vehículo solo circule por vías urbanas y travesías."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 1,
+    "regla": "La matrícula debe poder leerse e identificar el vehículo.",
+    "detalle": "Antes de circular, retira suciedad u obstáculos de las placas; no basta con que se vea solo la delantera."
+  },
+  {
+    "id": 20,
+    "tema": "Carriles",
+    "pregunta": "En vías interurbanas con tres carriles para el mismo sentido, ¿le está permitido circular por el carril izquierdo a un turismo con remolque?",
+    "opciones": [
+      "Sí, cuando la longitud del conjunto no supere los 7 metros.",
+      "Sí, pero solo para adelantar a otros vehículos.",
+      "No, en ningún caso."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 3,
+    "regla": "Un turismo con remolque puede usar el carril izquierdo si el conjunto no supera 7 m.",
+    "detalle": "En una vía interurbana de tres carriles en el mismo sentido, a los conjuntos de más de 7 m se les restringe ese carril."
+  },
+  {
+    "id": 21,
+    "tema": "Adelantamiento",
+    "pregunta": "Cuando se adelante a vehículos de tracción animal, fuera de poblado, la separación lateral...",
+    "opciones": [
+      "no debe ser inferior a 1,5 metros.",
+      "debe ser inferior a 1,5 metros, en todos los casos.",
+      "debe ser siempre proporcional a la anchura y características de la vía."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 5,
+    "regla": "Al adelantar a un vehículo de tracción animal fuera de poblado, deja al menos 1,5 m.",
+    "detalle": "La separación lateral mínima protege a los ocupantes y al animal; no la reduzcas aunque parezca que cabe el vehículo."
+  },
+  {
+    "id": 22,
+    "tema": "Alumbrado",
+    "pregunta": "¿Qué alumbrado deberá dejar encendido, como norma general, el conductor de un vehículo inmovilizado entre la puesta y la salida del sol en el arcén de una travesía insuficientemente iluminada?",
+    "opciones": [
+      "Ninguno.",
+      "Las luces de emergencia.",
+      "Las luces de posición."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 6)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 6,
+    "regla": "De noche, inmovilizado en el arcén de una travesía mal iluminada, deja las luces de posición.",
+    "detalle": "Sirven para señalar tu presencia; los cuatro intermitentes no sustituyen por sí solos la obligación general de posición."
+  },
+  {
+    "id": 23,
+    "tema": "Conducción",
+    "pregunta": "Si ha dormido mal o no ha dormido lo suficiente debe tener en cuenta que...",
+    "opciones": [
+      "conducir por una autovía durante horas impide la aparición del sueño.",
+      "no se encuentra en perfectas condiciones para conducir.",
+      "una taza de café elimina la fatiga y le ayuda a concentrarse."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 11,
+    "regla": "Dormir poco te deja en peores condiciones para conducir.",
+    "detalle": "Una autovía monótona y el café no eliminan el sueño ni reemplazan el descanso."
+  },
+  {
+    "id": 24,
+    "tema": "Carriles",
+    "pregunta": "Un conductor que señaliza un cambio de carril, ¿tiene preferencia sobre los conductores de los vehículos que circulan por el carril al que se pretende desplazar?",
+    "opciones": [
+      "Sí.",
+      "No.",
+      "Sólo si va a adelantar a un vehículo de grandes dimensiones."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 1,
+    "regla": "Poner el intermitente no te da prioridad para cambiar de carril.",
+    "detalle": "Señala tu intención, mira y cede el paso a los vehículos que ya circulan por el carril al que quieres entrar."
+  },
+  {
+    "id": 25,
+    "tema": "Emergencias",
+    "pregunta": "¿Qué debe hacer el conductor de un vehículo que, por motivos de emergencia, quede inmovilizado dentro de un paso inferior?",
+    "opciones": [
+      "Permanecer en el interior del vehículo.",
+      "Inmovilizar el vehículo lo más cerca posible del borde izquierdo de la calzada.",
+      "Solicitar auxilio a través del poste de socorro más próximo, si existiese."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 2,
+    "regla": "Inmovilizado por emergencia en un paso inferior, pide auxilio en el poste de socorro si existe.",
+    "detalle": "Detente en lugar seguro y sigue las medidas de seguridad del túnel; no permanezcas sin más dentro del vehículo."
+  },
+  {
+    "id": 26,
+    "tema": "Seguridad",
+    "pregunta": "Se debe desactivar el airbag frontal cuando en el asiento correspondiente al copiloto...",
+    "opciones": [
+      "viaje una mujer embarazada.",
+      "se instale un dispositivo de retención infantil orientado hacia atrás.",
+      "se instale un dispositivo de retención infantil orientado hacia delante."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 7,
+    "regla": "Desactiva el airbag frontal si colocas una silla infantil a contramarcha en el asiento delantero.",
+    "detalle": "Al desplegarse podría golpear la silla y causar lesiones graves; no se desactiva por el solo hecho de que viaje una embarazada."
+  },
+  {
+    "id": 27,
+    "tema": "Velocidad",
+    "pregunta": "En una autopista que transcurre por zona urbana, ¿a qué velocidad máxima puede circular un turismo si no existe señalización?",
+    "opciones": [
+      "A 80 km/h.",
+      "A 120 km/h.",
+      "A 100 km/h."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 8,
+    "regla": "En una autopista urbana sin señal de otro límite, la máxima general para un turismo es 80 km/h.",
+    "detalle": "Que sea autopista no implica automáticamente los 120 km/h de las autopistas fuera de poblado."
+  },
+  {
+    "id": 28,
+    "tema": "Alumbrado",
+    "pregunta": "Si debido a la lluvia intensa, en una vía interurbana no se distingue un vehículo de color negro a 50 metros de distancia, ¿es posible circular con el alumbrado de largo alcance encendido?",
+    "opciones": [
+      "No, está prohibido.",
+      "Sí, porque la vía está insuficientemente iluminada.",
+      "Sólo se puede encender la luz de cruce y la antiniebla delantera."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 10,
+    "regla": "La respuesta de este test permite las luces largas en la situación descrita.",
+    "detalle": "Con lluvia intensa y mala visibilidad, la regla exige valorar la iluminación y evitar deslumbrar; usa el alumbrado apropiado a la situación concreta."
+  },
+  {
+    "id": 29,
+    "tema": "Vehículo",
+    "pregunta": "La parte externa de uno de los neumáticos de su vehículo presenta una deformación en forma de bulto, ¿es recomendable sustituir el neumático lo antes posible?",
+    "opciones": [
+      "Sí, porque aumenta la posibilidad de sufrir un reventón.",
+      "No. Se puede seguir circulando con seguridad ya que no supone un riesgo importante.",
+      "No; no es necesario sustituirlo ya que siempre se puede reparar en un  taller especializado."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 11,
+    "regla": "Un bulto en el lateral del neumático puede acabar en reventón.",
+    "detalle": "Sustitúyelo lo antes posible: indica daño estructural y no es seguro seguir usándolo como si fuese desgaste normal.",
+    "imagen": "tire-hernia.jpg",
+    "imagen_credito": "Ejemplo de bulto en el lateral de un neumático, foto: Christidy / Wikimedia Commons (dominio público)"
+  },
+  {
+    "id": 30,
+    "tema": "Carriles",
+    "pregunta": "Los carriles reversibles están delimitados por marcas longitudinales…",
+    "opciones": [
+      "discontinuas con una separación sensiblemente más corta.",
+      "discontinuas simples a ambos lados.",
+      "dobles discontinuas a ambos lados."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 13)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 13,
+    "regla": "Un carril reversible se delimita por líneas dobles discontinuas a ambos lados.",
+    "detalle": "No lo confundas con un carril delimitado por una sola línea discontinua; además debes atender las señales que regulan su sentido.",
+    "imagen": "reversible-lane.png",
+    "imagen_credito": "Esquema propio: doble línea discontinua a cada lado del carril reversible"
+  }
+]
