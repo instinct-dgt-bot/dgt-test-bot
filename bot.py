@@ -62,7 +62,22 @@ def remaining_seconds(s):
     return max(0, int((datetime.fromisoformat(s["deadline"]) - now()).total_seconds())) if s["deadline"] else int(s["remaining"] or 0)
 
 
-def select_questions(con, chat_id, n):
+def daily_questions(day, n):
+    """Preguntas del día sin estado: recorre el banco en ciclos barajados con
+    semilla fija por ciclo, indexados por el número de día. No depende de la base
+    de datos (que se borra en cada reinicio de Render), así que no se repiten
+    hasta agotar el banco y el orden es el mismo tras cualquier reinicio."""
+    ids = sorted(BY_ID)
+    days_per_cycle = max(1, len(ids) // n)
+    cycle, d = divmod(day.toordinal(), days_per_cycle)
+    order = ids[:]
+    random.Random(f"dgt-daily-{BANK_VERSION[:8]}-{cycle}").shuffle(order)
+    return order[d * n:(d + 1) * n]
+
+
+def select_questions(con, chat_id, n, mode="exam"):
+    if mode == "daily":
+        return daily_questions(now().date(), n)
     # Dar más peso a temas fallados en el historial, sin duplicados en el test.
     rows = con.execute("SELECT topic, COUNT(*) AS n FROM history WHERE chat_id=? AND correct=0 GROUP BY topic", (chat_id,)).fetchall()
     mistakes = Counter({r["topic"]: r["n"] for r in rows})
@@ -209,7 +224,7 @@ async def begin_command(update, ctx, mode):
                 await update.message.reply_text("Ya has hecho las preguntas de hoy. Mañana tendrás otras. Puedes pedir /examen o /repetir.")
                 return
             con.execute("UPDATE users SET last_daily=? WHERE chat_id=?", (now().date().isoformat(),chat_id))
-        ids = select_questions(con, chat_id, 30 if mode == "exam" else DAILY_COUNT)
+        ids = select_questions(con, chat_id, 30 if mode == "exam" else DAILY_COUNT, mode)
         begin(con, chat_id, mode, ids)
         s = session(con, chat_id)
     await show_question(ctx.bot, chat_id, s)
@@ -379,7 +394,7 @@ async def daily_job(ctx):
                 else:
                     continue
             try:
-                ids = select_questions(con, chat_id, DAILY_COUNT)
+                ids = select_questions(con, chat_id, DAILY_COUNT, "daily")
                 begin(con, chat_id, "daily", ids)
                 await show_question(ctx.bot, chat_id, session(con, chat_id))
                 con.execute("UPDATE users SET last_daily=? WHERE chat_id=?",(today,chat_id))
