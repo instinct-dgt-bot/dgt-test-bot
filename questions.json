@@ -516,5 +516,1280 @@
     "detalle": "No lo confundas con un carril delimitado por una sola línea discontinua; además debes atender las señales que regulan su sentido.",
     "imagen": "reversible-lane.png",
     "imagen_credito": "Esquema propio: doble línea discontinua a cada lado del carril reversible"
+  },
+  {
+    "id": 31,
+    "tema": "Alcohol y drogas",
+    "pregunta": "El consumo de cannabis afecta al comportamiento del conductor porque...",
+    "opciones": [
+      "aumenta su nivel de atención.",
+      "aumenta su tiempo de reacción.",
+      "disminuye la somnolencia."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 2,
+    "regla": "El cannabis aumenta el tiempo de reacción.",
+    "detalle": "Si tardas más en reaccionar, recorres más distancia antes de actuar ante un peligro."
+  },
+  {
+    "id": 32,
+    "tema": "Fatiga",
+    "pregunta": "Factores variables como la cantidad y la calidad del sueño, el consumo de medicamentos sedantes o la monotonía en la conducción, ¿afectan por igual a todos los conductores?",
+    "opciones": [
+      "Sólo a los conductores que circulan principalmente de noche.",
+      "No; el mismo factor puede afectar de manera distinta a dos personas.",
+      "Sí."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 6)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 6,
+    "regla": "El mismo factor no afecta igual a todos.",
+    "detalle": "El sueño, los sedantes o la monotonía pueden tener efectos distintos según la persona; no hay una respuesta idéntica para todos."
+  },
+  {
+    "id": 33,
+    "tema": "Señalización",
+    "pregunta": "En una vía urbana, ¿debe tocar el claxon para advertir que va a realizar un adelantamiento?",
+    "opciones": [
+      "Sí, salvo que se encuentre cerca de un hospital.",
+      "Sí, siempre que sea a intervalos cortos y el sonido no sea estridente.",
+      "No."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 8,
+    "regla": "En ciudad no uses el claxon para anunciar un adelantamiento.",
+    "detalle": "No confundas el aviso de un adelantamiento con el uso excepcional del claxon para evitar un accidente."
+  },
+  {
+    "id": 34,
+    "tema": "Peatones",
+    "pregunta": "¿Cuál es una de las infracciones que cometen los conductores con mayor riesgo para los peatones?",
+    "opciones": [
+      "No respetar la prioridad en los pasos para peatones.",
+      "Circular por una autovía en sentido contrario al establecido.",
+      "No mantener la distancia de seguridad con el vehículo que circula delante."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 12,
+    "regla": "Respeta la prioridad en los pasos para peatones.",
+    "detalle": "No ceder el paso allí pone directamente en peligro a quienes están cruzando."
+  },
+  {
+    "id": 35,
+    "tema": "Seguridad",
+    "pregunta": "¿Quién está obligado a cuidar de que los pasajeros de un vehículo mantengan la posición adecuada para garantizar la seguridad?",
+    "opciones": [
+      "Los pasajeros mayores de edad.",
+      "El pasajero que ocupe el asiento delantero.",
+      "El conductor."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 13)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 13,
+    "regla": "El conductor debe cuidar de la posición de los pasajeros.",
+    "detalle": "No basta con que cada pasajero decida cómo sentarse: el conductor debe velar por una posición segura."
+  },
+  {
+    "id": 36,
+    "tema": "Visibilidad",
+    "pregunta": "¿Es peligroso conducir cuando los rayos de sol caen de forma directa sobre los ojos del conductor?",
+    "opciones": [
+      "Sí, pero encendiendo la luz de largo alcance se mejora la visibilidad.",
+      "No, porque al haber más luz, la visibilidad es mejor.",
+      "Sí, la visión se ve afectada y es difícil distinguir lo que ocurre alrededor."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-278.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 278,
+    "pregunta_original": 15,
+    "regla": "El sol directo en los ojos dificulta ver la vía.",
+    "detalle": "Tener más luz no siempre mejora la visión: el deslumbramiento puede impedir distinguir lo que ocurre delante."
+  },
+  {
+    "id": 37,
+    "tema": "Frenado",
+    "pregunta": "La distancia de frenado está determinada por...",
+    "opciones": [
+      "un único factor, la velocidad a la que se circula.",
+      "varios factores, como la velocidad, el estado de la vía o el del vehículo.",
+      "un único factor, el estado del vehículo."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 4,
+    "regla": "La distancia de frenado depende de varios factores.",
+    "detalle": "No depende solo de la velocidad: también influyen el estado del pavimento y del vehículo."
+  },
+  {
+    "id": 38,
+    "tema": "Seguridad",
+    "pregunta": "Si tiene un accidente y no lleva puesto el cinturón de seguridad, las posibilidades de resultar muerto en el siniestro son casi el doble en...",
+    "opciones": [
+      "la plaza del conductor, únicamente.",
+      "las plazas delanteras, únicamente.",
+      "todas las plazas del vehículo."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 5,
+    "regla": "El cinturón protege en todas las plazas.",
+    "detalle": "El riesgo de morir sin cinturón aumenta tanto delante como detrás; los asientos traseros no son una excepción."
+  },
+  {
+    "id": 39,
+    "tema": "Seguridad",
+    "pregunta": "En un turismo, ¿es obligatorio llevar dos chalecos reflectantes, uno para el conductor del vehículo y otro para su acompañante?",
+    "opciones": [
+      "Sólo es obligatorio en motocicletas, pero no en turismos.",
+      "Sí, se debe llevar un chaleco por cada plaza del vehículo.",
+      "No."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 6)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 6,
+    "regla": "No es obligatorio llevar dos chalecos en un turismo.",
+    "detalle": "La pregunta distingue entre lo que es obligatorio y llevar chalecos adicionales por seguridad."
+  },
+  {
+    "id": 40,
+    "tema": "Prioridad",
+    "pregunta": "Si una intersección con prioridad de paso está saturada y es previsible que se quede detenido sin terminar de atravesarla, impidiendo la circulación transversal, ¿qué debe hacer?",
+    "opciones": [
+      "Entrar en la intersección, porque tiene prioridad de paso.",
+      "Tocar el claxon con insistencia hasta que los otros conductores le dejen pasar.",
+      "No entrar en la intersección."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 7,
+    "regla": "No entres en una intersección si vas a bloquearla.",
+    "detalle": "La prioridad de paso no permite quedarte detenido e impedir la circulación transversal."
+  },
+  {
+    "id": 41,
+    "tema": "Salud",
+    "pregunta": "En general, un conductor que sufre un trastorno depresivo...",
+    "opciones": [
+      "recoge mejor la información relevante, especialmente en un entorno de tráfico complejo.",
+      "es más fácil que se distraiga y que sufra somnolencia.",
+      "se concentra con mayor facilidad."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 9)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 9,
+    "regla": "La depresión puede aumentar distracciones y somnolencia.",
+    "detalle": "Estos efectos dificultan mantener la atención necesaria para conducir con seguridad."
+  },
+  {
+    "id": 42,
+    "tema": "Seguridad",
+    "pregunta": "En un turismo de nueve plazas, incluida la del conductor, ¿pueden viajar nueve menores de edad?",
+    "opciones": [
+      "No, porque se supera el número de plazas autorizado.",
+      "Sólo si los niños son menores de 12 años.",
+      "Sí, siempre que el conductor sea su padre, madre o tutor."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 11,
+    "regla": "No puedes superar las plazas autorizadas.",
+    "detalle": "Las nueve plazas incluyen al conductor: no quedan nueve plazas adicionales para menores."
+  },
+  {
+    "id": 43,
+    "tema": "Vehículo",
+    "pregunta": "¿Qué puede verse afectado si cambia el carenado de una motocicleta?",
+    "opciones": [
+      "La estética, exclusivamente.",
+      "La aerodinámica y el consumo.",
+      "La visibilidad del vehículo."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 12,
+    "regla": "Cambiar el carenado puede cambiar la aerodinámica y el consumo.",
+    "detalle": "El carenado influye en cómo el aire rodea la motocicleta, no es solo una pieza estética."
+  },
+  {
+    "id": 44,
+    "tema": "Distracciones",
+    "pregunta": "¿Existe riesgo de accidente si un conductor utiliza un dispositivo de manos libres para hablar por teléfono mientras conduce?",
+    "opciones": [
+      "No; el dispositivo está pensado para que no exista ningún riesgo.",
+      "Sólo si la conversación dura más de cinco minutos.",
+      "Sí, hay cierto riesgo porque disminuye la atención."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 13)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 13,
+    "regla": "Hablar con manos libres también distrae.",
+    "detalle": "Tener las manos en el volante no elimina la atención que exige una conversación."
+  },
+  {
+    "id": 45,
+    "tema": "Seguridad",
+    "pregunta": "¿Qué factor de riesgo ocasiona un mayor número de accidentes de tráfico?",
+    "opciones": [
+      "El factor humano.",
+      "El factor vía y su entorno.",
+      "El factor vehículo."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-277.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 277,
+    "pregunta_original": 14,
+    "regla": "El factor humano causa el mayor número de accidentes.",
+    "detalle": "La conducta y las capacidades de las personas pesan más que los otros factores en el conjunto de accidentes."
+  },
+  {
+    "id": 46,
+    "tema": "Fatiga",
+    "pregunta": "¿Qué es un microsueño?",
+    "opciones": [
+      "Un periodo de unos segundos durante el cual el conductor sueña mientras conduce.",
+      "Un periodo de unos segundos durante el cual el conductor queda ligeramente dormido sin darse cuenta.",
+      "Un periodo corto de descanso que el conductor realiza cuando siente fatiga."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 2,
+    "regla": "Un microsueño dura unos segundos y puede pasar inadvertido.",
+    "detalle": "Aunque sea breve, durante ese tiempo no mantienes el control consciente de la conducción."
+  },
+  {
+    "id": 47,
+    "tema": "Seguridad",
+    "pregunta": "En la ficha de inspección técnica de esta motocicleta figura que tiene estructura de autoprotección y cinturón de seguridad. ¿Puede conducirla sin utilizar el casco de protección?",
+    "opciones": [
+      "Sólo cuando circule por vías urbanas.",
+      "Sí.",
+      "No."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 7,
+    "regla": "Esta motocicleta permite conducir sin casco con su protección prevista.",
+    "detalle": "La excepción exige que la ficha técnica indique estructura de autoprotección y cinturón, y que se utilice este; no vale para cualquier moto."
+  },
+  {
+    "id": 48,
+    "tema": "Estacionamiento",
+    "pregunta": "¿Está permitido estacionar en doble fila?",
+    "opciones": [
+      "Sí, siempre que el conductor no abandone el vehículo.",
+      "No, en ningún caso.",
+      "Sólo cuando la duración del estacionamiento sea inferior a dos minutos."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 9)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 9,
+    "regla": "No estaciones en doble fila.",
+    "detalle": "No confundas estacionar con una parada: esta pregunta se refiere al estacionamiento."
+  },
+  {
+    "id": 49,
+    "tema": "Peatones",
+    "pregunta": "¿Cuál es uno de los problemas que, debido al deterioro de las aptitudes psicofísicas, encuentran muchas personas mayores como peatones en las vías públicas?",
+    "opciones": [
+      "Tienen mayor capacidad de orientación, sobre todo en calles que no conocen bien.",
+      "No aprecian bien la velocidad a la que se acercan los vehículos.",
+      "Los bordillos de las aceras están al mismo nivel que la calzada."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 11,
+    "regla": "Algunas personas mayores calculan peor la velocidad de aproximación.",
+    "detalle": "Ese deterioro puede hacer que valoren mal si tienen tiempo suficiente para cruzar."
+  },
+  {
+    "id": 50,
+    "tema": "Ciclistas",
+    "pregunta": "En las proximidades de vías de uso exclusivo de ciclos, ¿qué precauciones se deben tomar?",
+    "opciones": [
+      "Hacer señales acústicas para indicar nuestra presencia.",
+      "Moderar la velocidad y, si fuera preciso, detener el vehículo.",
+      "Mantener la velocidad y estar atento al cumplimiento de la señalización vertical."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-276.shtml (pregunta 13)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 276,
+    "pregunta_original": 13,
+    "regla": "Modera la velocidad junto a vías exclusivas de ciclos.",
+    "detalle": "Debes estar preparado para detenerte si la situación lo exige para evitar un peligro."
+  },
+  {
+    "id": 51,
+    "tema": "Señalización",
+    "pregunta": "Si existen semáforos con indicaciones distintas a la derecha y a la izquierda, ¿a cuál obedecerán los que pretendan seguir de frente?",
+    "opciones": [
+      "Al situado a su derecha.",
+      "Al que se encuentre más cerca del vehículo.",
+      "Al situado inmediatamente a su izquierda."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 1,
+    "regla": "Para seguir de frente, obedece al semáforo de tu izquierda.",
+    "detalle": "Cuando las indicaciones de ambos lados difieren, no puedes elegir el que más te convenga."
+  },
+  {
+    "id": 52,
+    "tema": "Marcas viales",
+    "pregunta": "En el centro de la calzada hay doble línea continua; ¿qué indica?",
+    "opciones": [
+      "Que la calzada es peligrosa.",
+      "Que hay un carril especial.",
+      "Que no se puede atravesar, ni pisar la línea."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 2,
+    "regla": "Una doble línea continua no se pisa ni se atraviesa.",
+    "detalle": "Su significado no cambia por estar formada por dos líneas en lugar de una."
+  },
+  {
+    "id": 53,
+    "tema": "Peatones",
+    "pregunta": "Al cruzar un arcén por el que transitan peatones, ¿qué debe hacer?",
+    "opciones": [
+      "Avisarles mediante señales acústicas para que se aparten.",
+      "Cederles el paso, pero solamente si forman un grupo.",
+      "Cederles el paso si no disponen de zona peatonal."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 3)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 3,
+    "regla": "Al cruzar el arcén, cede el paso a esos peatones.",
+    "detalle": "Si no tienen zona peatonal, debes respetar su paso por el arcén que vas a atravesar."
+  },
+  {
+    "id": 54,
+    "tema": "Circulación",
+    "pregunta": "Un furgón, ¿puede utilizar un carril reversible?",
+    "opciones": [
+      "Solo si su M.M.A. no es superior a 3.500 kilogramos.",
+      "No.",
+      "Sí."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 5,
+    "regla": "Un furgón puede utilizar un carril reversible.",
+    "detalle": "No confundas el carril reversible con un carril en sentido contrario al habitual, que tiene otras condiciones."
+  },
+  {
+    "id": 55,
+    "tema": "Estacionamiento",
+    "pregunta": "Como norma general, en la parte transitable del arcén de una vía interurbana, ¿está permitida la parada o el estacionamiento?",
+    "opciones": [
+      "Está permitida la parada, pero no el estacionamiento.",
+      "Está prohibida tanto la parada como el estacionamiento.",
+      "Está permitida tanto la parada como el estacionamiento."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 6)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 6,
+    "regla": "No pares ni estaciones en el arcén transitable interurbano.",
+    "detalle": "La pregunta se refiere a la norma general, no a una inmovilización por emergencia."
+  },
+  {
+    "id": 56,
+    "tema": "Maniobras",
+    "pregunta": "Circulando por una autopista observa que se ha pasado una salida, ¿puede volver a ella circulando marcha atrás?",
+    "opciones": [
+      "No.",
+      "Sí, cuando el recorrido no supere los 15 metros.",
+      "Sí, comprobando que no existe peligro para otros usuarios."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 7,
+    "regla": "No vuelvas marcha atrás a una salida de autopista.",
+    "detalle": "Continúa hasta una salida posterior; perder una salida no autoriza esa maniobra."
+  },
+  {
+    "id": 57,
+    "tema": "Vehículo",
+    "pregunta": "¿Puede circular con su turismo si el equipaje no permite una visión adecuada de la vía por el espejo retrovisor interior?",
+    "opciones": [
+      "No; en ningún caso la carga puede disminuir la visibilidad a través del espejo retrovisor.",
+      "Sí, si el vehículo lleva dos espejos retrovisores exteriores, uno a cada lado.",
+      "Solo si el retrovisor derecho es gran angular y el interior es panorámico."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 8,
+    "regla": "Si el equipaje tapa el retrovisor interior, necesitas ambos exteriores.",
+    "detalle": "La alternativa exige un espejo exterior a cada lado para mantener la visión posterior necesaria."
+  },
+  {
+    "id": 58,
+    "tema": "Fatiga",
+    "pregunta": "En general, un conductor con sueño...",
+    "opciones": [
+      "acepta un mayor nivel de riesgo en la conducción.",
+      "acepta un menor nivel de riesgo en la conducción.",
+      "tarda menos en reaccionar ante un suceso imprevisto."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 10,
+    "regla": "El sueño puede hacer que aceptes más riesgo.",
+    "detalle": "No solo dificulta reaccionar: también empeora la valoración de los peligros."
+  },
+  {
+    "id": 59,
+    "tema": "Seguridad",
+    "pregunta": "¿Cómo se conocen a los colectivos de personas que tienen una mayor probabilidad de verse implicados en un accidente de tráfico o de fallecer a consecuencia del mismo?",
+    "opciones": [
+      "Grupos de riesgo o vulnerables en el tráfico.",
+      "Víctimas de accidentes de tráfico.",
+      "Grupos en riesgo de exclusión social."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 11,
+    "regla": "Se llaman grupos de riesgo o vulnerables.",
+    "detalle": "La definición se refiere a quienes tienen mayor probabilidad de sufrir un accidente o fallecer por él."
+  },
+  {
+    "id": 60,
+    "tema": "Carga",
+    "pregunta": "¿Puede sobresalir por la parte trasera del vehículo la carga indivisible que transporta un turismo?",
+    "opciones": [
+      "Sí, un máximo de hasta el 10% de la longitud del vehículo.",
+      "No, la carga no puede sobresalir por la parte trasera de un turismo.",
+      "Sí, un máximo de hasta el 15% de la longitud del vehículo."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 12,
+    "regla": "La carga indivisible de un turismo puede sobresalir detrás hasta el 15%.",
+    "detalle": "El porcentaje se calcula sobre la longitud del vehículo; la condición de carga indivisible importa."
+  },
+  {
+    "id": 61,
+    "tema": "Seguridad",
+    "pregunta": "Si queda detenido en un atasco, ¿qué distancia es aconsejable mantener con el vehículo de delante?",
+    "opciones": [
+      "Un metro como máximo.",
+      "Un espacio mínimo para ocupar menos espacio.",
+      "Dos o tres metros para no golpear al vehículo de delante en caso de alcance trasero."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 14,
+    "regla": "En un atasco, deja dos o tres metros delante.",
+    "detalle": "Ese espacio ayuda a no golpear al vehículo de delante si otro te alcanza por detrás."
+  },
+  {
+    "id": 62,
+    "tema": "Vehículo",
+    "pregunta": "¿Qué condiciones deben tener los neumáticos de una motocicleta?",
+    "opciones": [
+      "Las dos ruedas tienen que ser del mismo tamaño y características.",
+      "Las ranuras de la banda de rodadura deben tener una profundidad mínima de 1,6 milímetros.",
+      "No deben presentar ampollas, deformaciones anormales o roturas."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-275.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 275,
+    "pregunta_original": 15,
+    "regla": "Los neumáticos no deben tener ampollas, deformaciones o roturas.",
+    "detalle": "Estos daños comprometen su seguridad aunque todavía conserven dibujo."
+  },
+  {
+    "id": 63,
+    "tema": "Alumbrado",
+    "pregunta": "De día es obligatorio encender el alumbrado que corresponda cuando se circule...",
+    "opciones": [
+      "por un puente móvil.",
+      "por un carril reservado a vehículos con alta ocupación (VAO).",
+      "por pasos inferiores o tramos de vía afectados por la señal \"Túnel\"."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 1,
+    "regla": "También de día debes encender luces en los tramos indicados.",
+    "detalle": "Los pasos inferiores y las vías afectadas por la señal Túnel exigen el alumbrado que corresponda."
+  },
+  {
+    "id": 64,
+    "tema": "Señalización",
+    "pregunta": "Entre los siguientes tipos de señales, ¿cuál es el orden de prioridad?",
+    "opciones": [
+      "Señales verticales, agentes y semáforos.",
+      "Agentes, semáforos y señales verticales.",
+      "Semáforos, agentes y señales verticales."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 2,
+    "regla": "Entre esos tres tipos: agente, semáforo y señal vertical.",
+    "detalle": "Si se contradicen, sigue el tipo de señal que tiene mayor prioridad."
+  },
+  {
+    "id": 65,
+    "tema": "Alcohol y drogas",
+    "pregunta": "En general, bajo los efectos de la cocaína el conductor...",
+    "opciones": [
+      "es inseguro e infravalora sus capacidades al volante.",
+      "se concentra mejor, por lo que sus decisiones son más seguras.",
+      "es competitivo e impulsivo."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 4,
+    "regla": "La cocaína favorece la impulsividad y la competitividad.",
+    "detalle": "Sentirse más capaz no equivale a conducir mejor: puede llevar a asumir peligros."
+  },
+  {
+    "id": 66,
+    "tema": "Seguridad",
+    "pregunta": "Las embarazadas, ¿están obligadas a utilizar el cinturón de seguridad?",
+    "opciones": [
+      "Sí, como norma general.",
+      "No, porque es peligroso para el feto.",
+      "Solo si no les dificulta los movimientos para conducir."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 5,
+    "regla": "Las embarazadas deben usar cinturón como norma general.",
+    "detalle": "El embarazo no es por sí mismo una exención del uso del cinturón."
+  },
+  {
+    "id": 67,
+    "tema": "Salud",
+    "pregunta": "El calor afecta negativamente a las capacidades para conducir con seguridad. Un conductor que se encuentra bajo sus efectos normalmente:",
+    "opciones": [
+      "Tarda más en reaccionar y es menos agresivo.",
+      "Tarda más en reaccionar y es más agresivo.",
+      "Tarda menos en reaccionar y es más agresivo."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 6)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 6,
+    "regla": "El calor puede retrasar la reacción y aumentar la agresividad.",
+    "detalle": "Afecta tanto a la rapidez para actuar como al comportamiento al volante."
+  },
+  {
+    "id": 68,
+    "tema": "Señalización",
+    "pregunta": "Cuando la luz de marcha atrás esté averiada, ¿cómo debe indicar que va a dar marcha atrás?",
+    "opciones": [
+      "Moviendo el brazo de arriba abajo.",
+      "Con el brazo extendido y la palma de la mano hacia atrás.",
+      "Advirtiéndolo con el claxon."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 7,
+    "regla": "Indica marcha atrás con el brazo y la palma hacia atrás.",
+    "detalle": "Esta señal con el brazo sustituye la indicación de la luz cuando está averiada."
+  },
+  {
+    "id": 69,
+    "tema": "Maniobras",
+    "pregunta": "En una vía interurbana con un carril por sentido, ¿dónde se colocará un ciclomotor para girar a la izquierda, si no existe carril específico para realizar el giro?",
+    "opciones": [
+      "En el eje de la calzada, sin invadir el carril de sentido contrario.",
+      "En la parte central del carril por el que circule.",
+      "A la derecha, fuera de la calzada siempre que sea posible."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 8,
+    "regla": "El ciclomotor se sitúa a la derecha para preparar ese giro.",
+    "detalle": "Sin carril específico, debe colocarse fuera de la calzada si es posible; no se prepara como un turismo."
+  },
+  {
+    "id": 70,
+    "tema": "Fatiga",
+    "pregunta": "Para intentar evitar la aparición de la somnolencia durante la conducción es aconsejable dormir...",
+    "opciones": [
+      "entre 5 y 7 horas diarias.",
+      "menos horas de las necesarias, para mantener alto el nivel de alerta.",
+      "las horas suficientes para estar descansado, que para la mayoría de las personas son entre 7 y 9 horas."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 10,
+    "regla": "Duerme lo suficiente para estar descansado.",
+    "detalle": "Para la mayoría son entre siete y nueve horas; los trucos para mantenerse despierto no sustituyen el descanso."
+  },
+  {
+    "id": 71,
+    "tema": "Motocicletas",
+    "pregunta": "¿Cómo debe comportarse el conductor de un turismo, sobre todo en vías urbanas, para evitar un accidente con una motocicleta o un ciclomotor?",
+    "opciones": [
+      "Debe circular en paralelo y lo más cerca posible de los vehículos de dos ruedas.",
+      "Debe mirar por los retrovisores con frecuencia.",
+      "Debe reducir o incluso eliminar la distancia de seguridad."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 11,
+    "regla": "Mira los retrovisores con frecuencia.",
+    "detalle": "Así puedes detectar motos y ciclomotores antes de realizar una maniobra que invada su trayectoria."
+  },
+  {
+    "id": 72,
+    "tema": "Circulación",
+    "pregunta": "En un carril habilitado en sentido contrario al habitual por trabajos en la calzada, ¿qué vehículos tienen permitido utilizarlo?",
+    "opciones": [
+      "Todos los que estén autorizados a circular por la vía.",
+      "Solo turismos y motocicletas.",
+      "Automóviles que no superen los 3.500 kg de M.M.A. y motocicletas."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 12,
+    "regla": "Si el carril se habilita por obras, pueden usarlo los vehículos autorizados en la vía.",
+    "detalle": "No confundas esta excepción por trabajos con las restricciones de un carril habilitado para mejorar la fluidez."
+  },
+  {
+    "id": 73,
+    "tema": "Adelantamiento",
+    "pregunta": "En los adelantamientos a ciclistas en vías con un carril para cada sentido, ¿está permitido ocupar el carril de sentido contrario?",
+    "opciones": [
+      "Sí, siempre que el adelantamiento se pueda realizar con seguridad.",
+      "No.",
+      "Solo si ambos sentidos están separados por línea blanca discontinua."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 13)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 13,
+    "regla": "Puedes ocupar el sentido contrario para adelantar a un ciclista con seguridad.",
+    "detalle": "La autorización no elimina la obligación de comprobar el tráfico contrario y mantener la separación lateral."
+  },
+  {
+    "id": 74,
+    "tema": "Alcohol y drogas",
+    "pregunta": "Los conductores, ¿están obligados a realizar las pruebas para la comprobación de la tasa de alcoholemia cuando sean requeridos para ello por la policía de tráfico?",
+    "opciones": [
+      "No; pueden negarse a hacerla y seguir circulando.",
+      "Solo están obligados en caso de accidente de tráfico.",
+      "Sí; negarse a realizarla es un delito incluido en el Código Penal."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 14,
+    "regla": "Debes realizar la prueba de alcoholemia cuando te la exijan.",
+    "detalle": "Negarse no es una alternativa permitida: la negativa puede constituir delito."
+  },
+  {
+    "id": 75,
+    "tema": "Vehículo",
+    "pregunta": "¿Es conveniente utilizar un aceite lubricante con un índice de viscosidad tan bajo que, al calentarse el motor, se vuelva excesivamente líquido?",
+    "opciones": [
+      "No, ya que el aceite no llega a engrasar bien las piezas del motor.",
+      "Sí; cuanto más líquido, mejor engrasa y además arrastra los residuos depositados en el motor.",
+      "Solo si el motor se calienta en exceso, ya que engrasa mejor y ayuda a bajar su temperatura."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-274.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 274,
+    "pregunta_original": 15,
+    "regla": "Un aceite demasiado líquido no lubrica bien el motor.",
+    "detalle": "El aceite debe conservar la viscosidad adecuada al calentarse para proteger las piezas."
+  },
+  {
+    "id": 76,
+    "tema": "Seguridad",
+    "pregunta": "Respecto al uso del cinturón de seguridad, como norma general, el ocupante de un turismo distinto del conductor está obligado a...",
+    "opciones": [
+      "llevarlo puesto y sin abrochar, excepto si viaja en la plaza delantera.",
+      "llevarlo puesto y abrochado solo en vías interurbanas.",
+      "llevarlo puesto y correctamente abrochado."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 2,
+    "regla": "Los ocupantes también deben llevar el cinturón abrochado.",
+    "detalle": "La obligación general no se limita a quien conduce el turismo."
+  },
+  {
+    "id": 77,
+    "tema": "Alcohol y drogas",
+    "pregunta": "¿Qué alteración provoca con mayor frecuencia el consumo de alcohol en el comportamiento del conductor?",
+    "opciones": [
+      "Respuestas impulsivas y agresivas ante los demás conductores.",
+      "Disminución del tiempo de reacción.",
+      "Mayor facilidad para percibir los semáforos y las señales luminosas."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 9)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 9,
+    "regla": "El alcohol puede provocar respuestas impulsivas y agresivas.",
+    "detalle": "También cambia el comportamiento frente a otros conductores, no solo la coordinación física."
+  },
+  {
+    "id": 78,
+    "tema": "Seguridad",
+    "pregunta": "¿Con qué dos factores suelen relacionarse muchos de los accidentes más graves que sufren los jóvenes conductores?",
+    "opciones": [
+      "Con el consumo de alcohol y drogas y una actitud prudente al volante.",
+      "Con la falta de experiencia al volante y el consumo de alcohol y drogas.",
+      "Con la velocidad excesiva y una adecuada percepción del riesgo."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 12,
+    "regla": "En jóvenes destacan la falta de experiencia y el alcohol o las drogas.",
+    "detalle": "Esa combinación aumenta el riesgo en muchos de los accidentes más graves."
+  },
+  {
+    "id": 79,
+    "tema": "Conducción eficiente",
+    "pregunta": "¿Cuál de las siguientes circunstancias hace que aumente el consumo de combustible?",
+    "opciones": [
+      "Circular con las ventanillas del vehículo subidas.",
+      "Circular con el vehículo muy cargado.",
+      "Circular con unos neumáticos que carezcan de dibujo."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 13)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 13,
+    "regla": "Una carga mayor aumenta el consumo.",
+    "detalle": "Mover un vehículo más pesado exige más energía; lleva solo la carga necesaria."
+  },
+  {
+    "id": 80,
+    "tema": "Vehículo",
+    "pregunta": "¿Cuál de las siguientes razones puede explicar que el vehículo sea el factor de riesgo que aparece en un grado menor como causa principal de los accidentes de tráfico?",
+    "opciones": [
+      "A las importantes mejoras técnicas introducidas en su diseño y construcción.",
+      "A que la edad media de los vehículos es cada vez mayor.",
+      "A que en los últimos 20 años, los kilómetros recorridos han disminuido año tras año."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 14,
+    "regla": "Las mejoras técnicas reducen el peso del vehículo como causa de accidente.",
+    "detalle": "El diseño y la construcción más seguros ayudan, pero no sustituyen el mantenimiento ni una conducción prudente."
+  },
+  {
+    "id": 81,
+    "tema": "Vehículo",
+    "pregunta": "Para mantener la seguridad, ¿qué elementos se deben revisar periódicamente y con mayor frecuencia que el resto de componentes del vehículo?",
+    "opciones": [
+      "Los neumáticos, el sistema de frenado y los amortiguadores.",
+      "Las luces, la batería y las llantas.",
+      "El filtro del aire, la dirección y los retrovisores."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-273.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 273,
+    "pregunta_original": 15,
+    "regla": "Revisa con frecuencia neumáticos, frenos y amortiguadores.",
+    "detalle": "Son elementos directamente relacionados con el agarre, la frenada y la estabilidad."
+  },
+  {
+    "id": 82,
+    "tema": "Maniobras",
+    "pregunta": "En una calzada de un solo sentido de circulación, ¿dónde debe situarse para cambiar de dirección a la izquierda?",
+    "opciones": [
+      "Junto al borde izquierdo de la calzada.",
+      "Junto al borde derecho de la calzada.",
+      "En una calzada de un solo sentido no se puede cambiar de dirección."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 1,
+    "regla": "En una calzada de sentido único, prepárate a la izquierda para girar a la izquierda.",
+    "detalle": "La pregunta distingue esta calzada de una vía de doble sentido, donde no debes invadir el sentido contrario."
+  },
+  {
+    "id": 83,
+    "tema": "Estacionamiento",
+    "pregunta": "¿Está permitido realizar una parada en una autovía o autopista?",
+    "opciones": [
+      "Sí, en la mediana o en el arcén, indistintamente.",
+      "Sólo si el arcén es transitable y su anchura es superior a 1,5 metros.",
+      "No, excepto en las zonas habilitadas."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 2,
+    "regla": "En autopista o autovía, para solo en zonas habilitadas.",
+    "detalle": "La norma general prohíbe una parada voluntaria en el resto de la vía."
+  },
+  {
+    "id": 84,
+    "tema": "Alcohol y drogas",
+    "pregunta": "Cuando un conductor no supere la tasa máxima de alcohol permitida, el agente de tráfico, ¿puede realizarle una segunda prueba?",
+    "opciones": [
+      "No, en ningún caso.",
+      "Sí, si muestra signos evidentes de encontrarse bajo los efectos del alcohol.",
+      "Sólo si está implicado en un accidente."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 4,
+    "regla": "Puede haber segunda prueba aunque no se supere la tasa.",
+    "detalle": "Los signos evidentes de estar bajo los efectos del alcohol también justifican repetirla."
+  },
+  {
+    "id": 85,
+    "tema": "Motocicletas",
+    "pregunta": "¿Qué debe hacer si empieza a llover con intensidad mientras conduce una motocicleta?",
+    "opciones": [
+      "Moderar la velocidad, e incluso detenerse si fuera necesario.",
+      "Circular pegado a los vehículos pesados para protegerse de la lluvia.",
+      "Aumentar la velocidad para llegar antes al destino."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 5,
+    "regla": "Con lluvia intensa, reduce la velocidad y detente si hace falta.",
+    "detalle": "En moto, la pérdida de adherencia y visibilidad exige adaptar la marcha a las condiciones."
+  },
+  {
+    "id": 86,
+    "tema": "Velocidad",
+    "pregunta": "Entre los efectos negativos de la velocidad se encuentra el efecto túnel, en el que el conductor...",
+    "opciones": [
+      "sólo percibe el centro de la calzada y deja de ver los laterales.",
+      "tiene la falsa sensación de que circula a velocidad reducida.",
+      "percibe mejor los laterales de la vía que el centro de la calzada."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 7,
+    "regla": "El efecto túnel reduce la visión de los laterales.",
+    "detalle": "Al aumentar la velocidad, puedes concentrar la percepción en el centro y dejar de detectar peligros laterales."
+  },
+  {
+    "id": 87,
+    "tema": "Distracciones",
+    "pregunta": "¿Cómo debe colocar el navegador GPS portátil en el vehículo?",
+    "opciones": [
+      "Debajo del volante, tan cerca del suelo como sea posible.",
+      "Justo detrás del volante, a la altura de los ojos del conductor.",
+      "Donde no entorpezca ni la visión ni el despliegue del airbag"
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 8,
+    "regla": "Coloca el GPS sin tapar la visión ni el airbag.",
+    "detalle": "Que sea cómodo de consultar no justifica que obstaculice el campo visual o el despliegue de protección."
+  },
+  {
+    "id": 88,
+    "tema": "Salud",
+    "pregunta": "¿Cuál es una de las principales causas de los accidentes de las personas mayores?",
+    "opciones": [
+      "El deterioro de las capacidades psicomotoras.",
+      "El aumento de la visión periférica.",
+      "Una mejor percepción y análisis de los riesgos."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 9)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 9,
+    "regla": "El deterioro psicomotor es una causa importante en personas mayores.",
+    "detalle": "Puede afectar a la coordinación y a la rapidez de respuesta necesarias en el tráfico."
+  },
+  {
+    "id": 89,
+    "tema": "Accidentes",
+    "pregunta": "Todo conductor implicado en un accidente de tráfico, ¿está obligado a detenerse para esclarecer los hechos?",
+    "opciones": [
+      "Sólo si es culpable del accidente.",
+      "Sí, pero de forma que no cree un nuevo peligro para la circulación.",
+      "No."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 10)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 10,
+    "regla": "Si estás implicado, detente sin crear otro peligro.",
+    "detalle": "Es necesario esclarecer lo ocurrido, pero hay que evitar que la propia detención cause otro accidente."
+  },
+  {
+    "id": 90,
+    "tema": "Vehículo",
+    "pregunta": "Si circula con la presión de inflado de los neumáticos descompensada, ¿aumenta el riesgo de perder el control del vehículo?",
+    "opciones": [
+      "Sí, ya que la frenada es irregular y se reduce la estabilidad del vehículo.",
+      "No, sobre todo si está descompensada por eje mejora la adherencia, incluso, cuando la calzada está resbaladiza.",
+      "No, porque aumenta el área de contacto del neumático con la calzada y facilita el rodaje."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 11)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 11,
+    "regla": "Una presión descompensada reduce la estabilidad y altera la frenada.",
+    "detalle": "Mantén las presiones recomendadas y compruébalas para evitar diferencias peligrosas."
+  },
+  {
+    "id": 91,
+    "tema": "Motocicletas",
+    "pregunta": "Si lleva a un pasajero en una motocicleta, al frenar...",
+    "opciones": [
+      "es más difícil que se bloquee la rueda trasera.",
+      "el peso se desplaza hacia la parte trasera de la motocicleta.",
+      "es conveniente no soltar el acelerador y accionar sólo el freno trasero."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 12,
+    "regla": "Con pasajero es más difícil bloquear la rueda trasera al frenar.",
+    "detalle": "El peso adicional sobre la parte trasera cambia el apoyo de esa rueda; no significa que no pueda bloquearse."
+  },
+  {
+    "id": 92,
+    "tema": "Adherencia",
+    "pregunta": "Si, debido a la lluvia, el pavimento está deslizante, ¿qué precauciones se deben tomar?",
+    "opciones": [
+      "Moderar la velocidad y, si fuera preciso, detener el vehículo.",
+      "Mantener la velocidad y estar atento al cumplimiento de la señalización vertical.",
+      "Ninguna, ya que las circunstancias de la vía son idénticas para todos los usuarios."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 14,
+    "regla": "En pavimento deslizante, modera la velocidad.",
+    "detalle": "Si no puedes circular con seguridad, debes detenerte en lugar de mantener la velocidad habitual."
+  },
+  {
+    "id": 93,
+    "tema": "Seguridad",
+    "pregunta": "¿Cuál de los tres factores de riesgo es el que está menos implicado entre las causas de los accidentes de tráfico?",
+    "opciones": [
+      "El factor vía y su entorno.",
+      "El factor humano.",
+      "El factor vehículo."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-272.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 272,
+    "pregunta_original": 15,
+    "regla": "De esos tres factores, el vehículo está menos implicado.",
+    "detalle": "Menor frecuencia no significa que no importe: debes mantener el vehículo en condiciones seguras."
+  },
+  {
+    "id": 94,
+    "tema": "Velocidad",
+    "pregunta": "Conducir durante mucho tiempo a una velocidad elevada...",
+    "opciones": [
+      "disminuye la aparición de la fatiga pero aumenta la agresividad.",
+      "acelera la aparición de la fatiga y, por tanto, disminuye la agresividad.",
+      "acelera la aparición de la fatiga y hace que aumente la agresividad."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 4,
+    "regla": "Una velocidad alta sostenida aumenta fatiga y agresividad.",
+    "detalle": "La exigencia constante de atención puede cansarte más y alterar tu comportamiento."
+  },
+  {
+    "id": 95,
+    "tema": "Salud",
+    "pregunta": "Factores individuales como la edad, la fatiga o el estado físico del conductor, ¿pueden hacer que los efectos secundarios de los medicamentos sean diferentes en cada persona?",
+    "opciones": [
+      "No, los efectos secundarios son los mismos para todas las personas.",
+      "Sí, los efectos secundarios pueden variar en cada persona.",
+      "Sólo si durante el tratamiento no se siguen los consejos del médico."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 5,
+    "regla": "Los medicamentos pueden afectar de forma distinta a cada persona.",
+    "detalle": "Edad, fatiga y estado físico cambian la respuesta; no te guíes por cómo le afectan a otra persona."
+  },
+  {
+    "id": 96,
+    "tema": "Distracciones",
+    "pregunta": "Si se lleva instalado un navegador GPS hay que tener en cuenta que...",
+    "opciones": [
+      "mientras se conduce no es conveniente apartar la vista del navegador.",
+      "las indicaciones del navegador prevalecen sobre la señalización de la vía.",
+      "el criterio del conductor debe prevalecer sobre las indicaciones del navegador."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 6)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 6,
+    "regla": "Tu criterio debe prevalecer sobre las indicaciones del GPS.",
+    "detalle": "El navegador orienta, pero no sustituye la observación de la vía ni el respeto de sus señales."
+  },
+  {
+    "id": 97,
+    "tema": "Señalización",
+    "pregunta": "El agente balancea una luz amarilla; ¿qué indica?",
+    "opciones": [
+      "Precaución al circular.",
+      "El carril por el que se debe circular.",
+      "Obliga a detenerse a los conductores hacia los que dirige la luz."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 12)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 12,
+    "regla": "Una luz amarilla balanceada por un agente ordena detenerse.",
+    "detalle": "No significa simplemente precaución: deben detenerse los conductores hacia los que se dirige."
+  },
+  {
+    "id": 98,
+    "tema": "Seguridad",
+    "pregunta": "Conforme a los datos de accidentalidad, en los períodos de vacaciones y los fines de semana...",
+    "opciones": [
+      "no varía de forma importante el número de accidentes con víctimas mortales.",
+      "aumenta el número de accidentes con víctimas mortales.",
+      "disminuye el número de accidentes con víctimas mortales."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 14)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 14,
+    "regla": "En vacaciones y fines de semana aumentan los accidentes mortales.",
+    "detalle": "No des por hecho que conducir en tiempo de ocio sea menos peligroso."
+  },
+  {
+    "id": 99,
+    "tema": "Vehículo",
+    "pregunta": "Si su turismo ha pasado favorablemente la primera ITV, ¿cuándo tiene que pasar la próxima inspección?",
+    "opciones": [
+      "Dentro de 2 años.",
+      "Dentro de 4 años.",
+      "Al año siguiente."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-271.shtml (pregunta 15)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 271,
+    "pregunta_original": 15,
+    "regla": "Tras la primera ITV favorable del turismo, la siguiente es a los dos años.",
+    "detalle": "La pregunta parte de haber superado la primera inspección ordinaria, no de un turismo de cualquier edad."
+  },
+  {
+    "id": 100,
+    "tema": "Alcohol y drogas",
+    "pregunta": "El consumo de alcohol, aunque sea en pequeñas cantidades...",
+    "opciones": [
+      "no deteriora la capacidad para conducir.",
+      "deteriora la capacidad para conducir.",
+      "deteriora la capacidad para conducir sólo si se mezcla con alguna droga ilegal."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-270.shtml (pregunta 1)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 270,
+    "pregunta_original": 1,
+    "regla": "Incluso poco alcohol deteriora la conducción.",
+    "detalle": "No existe una cantidad que garantice conservar intactas las capacidades para conducir."
+  },
+  {
+    "id": 101,
+    "tema": "Ciclistas",
+    "pregunta": "Una persona mayor de edad, ¿puede transportar a un pasajero en una bicicleta que, por construcción, no pueda ser ocupada por más de una persona?",
+    "opciones": [
+      "Sólo si el conductor pedalea levantado y el pasajero va sentado en el sillín.",
+      "Sí, a un menor de hasta siete años en un asiento adicional homologado.",
+      "No, está prohibido."
+    ],
+    "correcta": 1,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-270.shtml (pregunta 2)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 270,
+    "pregunta_original": 2,
+    "regla": "Un adulto puede llevar a un menor de hasta siete años en asiento homologado.",
+    "detalle": "Esa excepción no permite llevar a cualquier pasajero ni utilizar un asiento improvisado."
+  },
+  {
+    "id": 102,
+    "tema": "Velocidad",
+    "pregunta": "A falta de señalización, ¿cuál es la velocidad máxima permitida para una furgoneta cuando circule por una autovía que discurra dentro de poblado?",
+    "opciones": [
+      "80 km/h.",
+      "100 km/h.",
+      "90 km/h."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-270.shtml (pregunta 4)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 270,
+    "pregunta_original": 4,
+    "regla": "En esa autovía dentro de poblado, el límite general es 80 km/h.",
+    "detalle": "La pregunta fija la ausencia de señalización: no apliques automáticamente el límite de una autovía interurbana."
+  },
+  {
+    "id": 103,
+    "tema": "Seguridad",
+    "pregunta": "Los menores de edad de estatura igual o inferior a 135 centímetros deberán utilizar sistemas de retención infantil homologados debidamente adaptados a...",
+    "opciones": [
+      "su talla y edad.",
+      "su edad y peso.",
+      "su talla y peso."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-270.shtml (pregunta 5)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 270,
+    "pregunta_original": 5,
+    "regla": "El sistema infantil debe adaptarse a talla y peso.",
+    "detalle": "No basta con que esté homologado: debe ser adecuado para ese menor."
+  },
+  {
+    "id": 104,
+    "tema": "Motocicletas",
+    "pregunta": "Para los conductores y pasajeros de motocicletas, ¿tiene importancia el vestuario a utilizar?",
+    "opciones": [
+      "No, es indiferente siempre que lleven el casco.",
+      "No, porque no aporta nada a la seguridad.",
+      "Sí, es fundamental porque el cuerpo está directamente expuesto a las inclemencias del tiempo."
+    ],
+    "correcta": 2,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-270.shtml (pregunta 7)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 270,
+    "pregunta_original": 7,
+    "regla": "El vestuario importa porque el cuerpo queda expuesto.",
+    "detalle": "En moto, la ropa adecuada ayuda a proteger de las condiciones meteorológicas."
+  },
+  {
+    "id": 105,
+    "tema": "Conducción eficiente",
+    "pregunta": "¿Es posible ahorrar combustible evitando cambios de marcha innecesarios?",
+    "opciones": [
+      "Sí.",
+      "No, en ningún vaso.",
+      "Depende de si el vehículo tiene motor diésel o de gasolina."
+    ],
+    "correcta": 0,
+    "fuente": "https://revista.dgt.es/es/test/Test-num-270.shtml (pregunta 8)",
+    "origen": "Revista Tráfico y Seguridad Vial, DGT",
+    "numero_test": 270,
+    "pregunta_original": 8,
+    "regla": "Evitar cambios innecesarios de marcha puede ahorrar combustible.",
+    "detalle": "Una conducción estable y una marcha adecuada reducen operaciones que no ayudan a avanzar de forma eficiente."
   }
 ]
