@@ -17,8 +17,8 @@ class BotTests(unittest.IsolatedAsyncioTestCase):
     def tearDown(self):
         self.temp.cleanup()
     def test_question_bank(self):
-        self.assertEqual(len(bot.QUESTIONS),30)
-        self.assertEqual(len(bot.BY_ID),30)
+        self.assertEqual(len(bot.QUESTIONS),105)
+        self.assertEqual(len(bot.BY_ID),105)
         for q in bot.QUESTIONS:
             self.assertEqual(len(q['opciones']),3)
             self.assertIn(q['correcta'],(0,1,2))
@@ -145,3 +145,29 @@ class FeedbackTests(unittest.IsolatedAsyncioTestCase):
         await bot.next_question(MagicMock(callback_query=q),ctx)
         self.assertIn('Práctica: 1/1',b.send_message.call_args_list[-1].args[1])
         with bot.db() as con: self.assertEqual(bot.session(con,12)['status'],'finished')
+
+
+class DailyBankTests(unittest.TestCase):
+    def test_cycles_cover_every_question_without_duplicates(self):
+        from datetime import date
+        for count in (3, 4, 5):
+            days = (len(bot.BY_ID) + count - 1) // count
+            start = (date(2026, 10, 2).toordinal() // days) * days
+            batches = [bot.daily_questions(date.fromordinal(start + i), count) for i in range(days)]
+            flattened = [qid for batch in batches for qid in batch]
+            self.assertEqual(len(flattened), len(bot.BY_ID))
+            self.assertEqual(set(flattened), set(bot.BY_ID))
+            for i in range(days):
+                self.assertEqual(batches[i], bot.daily_questions(date.fromordinal(start + i), count))
+            self.assertFalse(set(batches[0]) & set(batches[1]))
+
+    def test_sources_and_no_duplicate_text(self):
+        import re
+        texts = [re.sub(r"\W+", "", q["pregunta"].casefold()) for q in bot.QUESTIONS]
+        self.assertEqual(len(texts), len(set(texts)))
+        sources = [(q['numero_test'], q['pregunta_original']) for q in bot.QUESTIONS]
+        self.assertEqual(len(sources), len(set(sources)))
+        for q in bot.QUESTIONS:
+            body = q['pregunta'] + "\n" + "\n".join(q['opciones'])
+            self.assertLess(len(body), 3500)
+            self.assertNotIn('<', body)

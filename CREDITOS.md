@@ -14,3 +14,19 @@ Son preguntas **publicadas por la DGT en su revista**, no una descarga completa 
 
 Los demás enunciados no requieren imagen para responder; no se adjuntan fotografías de relleno. La señal del test de la revista no se copia ni se redistribuye.
 - Pregunta 16: placa de la señal española R-407a, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_R-407a.svg), NACLE2, CC0. Esta pregunta de la Revista DGT (test 276, n.º 14) exige ver la señal; se utiliza una versión libre equivalente, no la imagen de la revista.
+
+## Ampliación del 2 de octubre de 2026
+
+Se añadieron 75 preguntas: total 105. Se conserva el enunciado, las tres opciones y la letra correcta de la publicación. Las explicaciones breves son propias, basadas en la respuesta publicada. Fuentes adicionales y completas de la ampliación:
+
+- [Test 270](https://revista.dgt.es/es/test/Test-num-270.shtml)
+- [Test 271](https://revista.dgt.es/es/test/Test-num-271.shtml)
+- [Test 272](https://revista.dgt.es/es/test/Test-num-272.shtml)
+- [Test 273](https://revista.dgt.es/es/test/Test-num-273.shtml)
+- [Test 274](https://revista.dgt.es/es/test/Test-num-274.shtml)
+- [Test 275](https://revista.dgt.es/es/test/Test-num-275.shtml)
+- [Test 276](https://revista.dgt.es/es/test/Test-num-276.shtml)
+- [Test 277](https://revista.dgt.es/es/test/Test-num-277.shtml)
+- [Test 278](https://revista.dgt.es/es/test/Test-num-278.shtml)
+
+No se han añadido fotografías de la revista: se han excluido las preguntas nuevas que necesitan ver una señal o escena. Las imágenes decorativas no son necesarias para responder y no se copian. Se mantienen las cuatro imágenes libres o propias ya documentadas.
