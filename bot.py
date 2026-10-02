@@ -68,7 +68,9 @@ def daily_questions(day, n):
     de datos (que se borra en cada reinicio de Render), así que no se repiten
     hasta agotar el banco y el orden es el mismo tras cualquier reinicio."""
     ids = sorted(BY_ID)
-    days_per_cycle = max(1, len(ids) // n)
+    if n <= 0:
+        raise ValueError("El número diario debe ser positivo")
+    days_per_cycle = max(1, (len(ids) + n - 1) // n)
     cycle, d = divmod(day.toordinal(), days_per_cycle)
     order = ids[:]
     random.Random(f"dgt-daily-{BANK_VERSION[:8]}-{cycle}").shuffle(order)
