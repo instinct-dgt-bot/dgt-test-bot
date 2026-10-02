@@ -1,6 +1,6 @@
 # Bot de práctica del teórico B (prototipo)
 
-30 preguntas **publicadas por la DGT en la revista Tráfico y Seguridad Vial**, con la corrección publicada y enlace a cada pregunta. No son la totalidad del banco privado de exámenes; no se asegura que cada pregunta haya aparecido literalmente en una prueba oficial. No es un producto oficial ni sustituye la preparación reglada. Las respuestas se cotejaron con la corrección publicada por la revista, pero conviene revisar el banco cuando cambie la normativa.
+105 preguntas **publicadas por la DGT en la revista Tráfico y Seguridad Vial**, con la corrección publicada y enlace a cada pregunta. No son la totalidad del banco privado de exámenes; no se asegura que cada pregunta haya aparecido literalmente en una prueba oficial. No es un producto oficial ni sustituye la preparación reglada. Las respuestas se cotejaron con la corrección publicada por la revista, pero conviene revisar el banco cuando cambie la normativa.
 
 ## Qué hace
 
@@ -58,3 +58,7 @@ Fuente oficial de límites: https://render.com/docs/free
 `questions.json` contiene 30 preguntas publicadas por la DGT. Cada objeto lleva `id` único, `tema`, `pregunta`, `opciones` (tres textos), `correcta` (índice 0, 1 o 2), `regla`, `detalle`, `fuente`, `numero_test` y `pregunta_original`. `imagen` es opcional, solo para una imagen necesaria y autorizada. Para cambiar una pregunta, verifica su texto y respuesta contra el enlace oficial en `fuente`; actualiza el `id` y las tres opciones si procede. Para añadir una foto o señal, colócala en `assets/`, enlaza el nombre en `imagen` y añade autor/licencia/fuente en `CREDITOS.md`; verifica visualmente que de verdad corresponde al supuesto. Nunca subas fotos sin licencia ni claves. Ejecuta `python -m unittest -v test_bot.py`, si has añadido alguna `imagen`, comprueba que apunte a un archivo existente y prueba la pregunta en Telegram.
 
 Si Render está conectado al repositorio Git, un commit en la rama desplegada inicia un nuevo deploy cuando auto-deploy está activado. Si se usó la opción de URL de repositorio público, revisa en Render si auto-deploy se ofrece o lanza un deploy manual después del push. Verifica `/health`, `/start` y `/diario` al terminar. Render Free puede borrar el SQLite local en un redeploy; si ocurre, hay que pulsar `/start` de nuevo. Aunque el archivo sobreviva, al cambiar el banco se cancelan los exámenes activos y se limpia el historial para evitar puntuar IDs antiguos como preguntas nuevas. No conviertas el token en archivo `.env` versionado; edita las variables de entorno en Render. Un cambio del banco requiere volver a iniciar la práctica tras el despliegue; en Render Free los datos efímeros pueden perderse.
+
+## Rotación diaria
+
+Con tres preguntas al día, las 105 preguntas se recorren sin repetición en ciclos de 35 días. La selección depende de la fecha y la versión del banco, no del disco efímero. Si se cambia el banco, comienza una nueva rotación. Para tamaños no divisibles por la cantidad diaria, el último día del ciclo contiene las preguntas restantes, sin descartarlas.
